@@ -1,5 +1,9 @@
-import Home_page from "./components/Home_page";
+import HomePage from "./components/HomePage";
 
-const app = () => <Home_page/>
+const app = () => (
+  <>
+    <HomePage />
+  </>
+);
 
-export default app
+export default app;
