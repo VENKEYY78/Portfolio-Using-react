@@ -1,12 +1,16 @@
-.sample {
-  height: 100vh;
+.about-main-bg-container {
   max-width: 100%;
-  background-size: cover;
+  max-height: 100%;
+  background-color: rgb(250, 250, 250);
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.name {
-  font-size: 50px;
+.about-left-side-container {
+  max-width: 50%;
+  max-height: 100%;
+}
+
+.about-right-side-container {
+  max-width: 50%;
+  max-height: 100%;
 }

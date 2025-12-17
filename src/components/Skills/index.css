@@ -1,12 +1,10 @@
-.sample {
-  height: 100vh;
-  max-width: 100%;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.skills-container {
+  list-style-type: none;
+  text-decoration: none;
 }
 
-.name {
-  font-size: 50px;
+.link {
+  color: rgb(27, 30, 34);
+  font-family: "Roboto";
+  text-decoration: none;
 }

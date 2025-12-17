@@ -1,19 +1,21 @@
-import MyNavbar from "../MyNavbar";
-import About from "../About";
-import Contact from "../Contact";
-import Projects from "../Projects";
-import Skills from "../Skills";
-
 import "./index.css";
 
-const Home_page = () => (
-  <div className="home-page-bg-container">
-    <MyNavbar />
-    <About />
-    <Contact />
-    <Projects />
-    <Skills />
+const HomePage = () => (
+  <div className="home-page-main-bg-container">
+    <div className="">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY9b_u54JNRxi87Sk4eVhIzrB3B8AJAWMNqw&s"
+        className="home-page-cover-photo"
+        alt="profile-photo"
+      />
+    </div>
+    <div>
+      <h1>
+        Hello, I'm <span>Venkatesh Joka</span>
+      </h1>
+      <h2>Full Stack Developer</h2>
+    </div>
   </div>
 );
 
-export default Home_page;
+export default HomePage;

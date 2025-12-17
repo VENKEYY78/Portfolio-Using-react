@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import { Nav } from "react-bootstrap";
 
 import "./index.css";
@@ -8,11 +10,31 @@ const MyNavbar = () => (
       <h1 className="portfolio-heading">Venkatesh Joka</h1>
       <div className="mynavbar-list-item-container">
         <ul className="mynavber-list-items-container">
-          <li className="mynavbar-list-item">Home Page</li>
-          <li className="mynavbar-list-item">About</li>
-          <li className="mynavbar-list-item">Skills</li>
-          <li className="mynavbar-list-item">Projects</li>
-          <li className="mynavbar-list-item">Contacts As</li>
+          <li className="mynavbar-list-item">
+            <Link className="link" to="/">
+              Home
+            </Link>
+          </li>
+          <li className="mynavbar-list-item">
+            <Link className="link" to="/about">
+              About
+            </Link>
+          </li>
+          <li className="mynavbar-list-item">
+            <Link className="link" to="/skills">
+              Skills
+            </Link>
+          </li>
+          <li className="mynavbar-list-item">
+            <Link className="link" to="/projects">
+              Projects
+            </Link>
+          </li>
+          <li className="mynavbar-list-item">
+            <Link className="link" to="/contact As">
+              Contact As
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
