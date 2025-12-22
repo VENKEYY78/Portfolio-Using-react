@@ -9,11 +9,11 @@ const HomePage = () => (
         alt="profile-photo"
       />
     </div>
-    <div>
-      <h1>
-        Hello, I'm <span>Venkatesh Joka</span>
+    <div className="home-page-intraduction-container">
+      <h1 className="home-page-name-intraduction">
+        Hello, I'm <span className="home-page-name">Venkatesh Joka</span>
       </h1>
-      <h2>Full Stack Developer</h2>
+      <h2 className="home-page-role">Full Stack Developer</h2>
     </div>
   </div>
 );

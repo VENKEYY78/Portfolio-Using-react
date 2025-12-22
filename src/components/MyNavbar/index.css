@@ -1,40 +1,24 @@
-.mynavbar-main-bg-container {
-  height: 5%;
-  width: 100%;
-  background-color: rgb(208, 225, 255);
-  display: flex;
-  justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 20px;
+/* Default: Laptop view visible */
+.Mynavbar-LaptopView {
+  display: block;
 }
 
-.portfolio-heading {
-  font-family: "Bree serif";
-  font-weight: bold;
-  font-style: italic;
-  font-language-override: normal;
+/* Mobile view: Laptop view hide 
+@media (max-width: 767px) {
+  .Mynavbar-LaptopView {
+    display: none;
+  }
+}
+  */
+
+/* Default: Mobile view visible */
+.Mynavbar-MobileView {
+  display: block;
 }
 
-.mynavbar-list-item-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.mynavber-list-items-container {
-  list-style-type: none;
-  display: flex;
-  align-items: end;
-}
-
-.mynavbar-list-item {
-  font-family: "Roboto";
-  font-size: larger;
-  padding-right: 50px;
-}
-
-.link {
-  color: rgb(27, 30, 34);
-  font-family: "Roboto";
-  text-decoration: none;
+/* Laptop & Desktop: Mobile view hide */
+@media (min-width: 768px) {
+  .Mynavbar-MobileView {
+    display: none;
+  }
 }

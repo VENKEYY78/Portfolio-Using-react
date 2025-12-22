@@ -5,17 +5,19 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import SSC from "./components/EducationDetials/SSC";
-import DIPLAMO from "./components/EducationDetials/DIPLAMO";
-import Btech from "./components/EducationDetials/Btech";
-import Bootstrap from "./components/SkillsDetails/Bootstrap";
-import ExpressJs from "./components/SkillsDetails/ExpressJs";
-import HtmlAndCss from "./components/SkillsDetails/HtmlAndCss";
-import Javascript from "./components/SkillsDetails/Javascript";
-import MySql from "./components/SkillsDetails/MySql";
-import NodeJs from "./components/SkillsDetails/NodeJs";
-import Python from "./components/SkillsDetails/Python";
-import React from "./components/SkillsDetails/React";
+import SSC from "./components/About/EducationDetials/SSC";
+import DIPLAMO from "./components/About/EducationDetials/DIPLAMO";
+import Btech from "./components/About/EducationDetials/Btech";
+import Bootstrap from "./components/Skills/SkillsDetails/Bootstrap";
+import ExpressJs from "./components/Skills/SkillsDetails/ExpressJs";
+import HtmlAndCss from "./components/Skills/SkillsDetails/HtmlAndCss";
+import Javascript from "./components/Skills/SkillsDetails/Javascript";
+import MySql from "./components/Skills/SkillsDetails/MySql";
+import NodeJs from "./components/Skills/SkillsDetails/NodeJs";
+import Python from "./components/Skills/SkillsDetails/Python";
+import React from "./components/Skills/SkillsDetails/React";
+import TodoList from "./components/Skills/SkillsDetails/HtmlAndCss/HtmlAndCssProjects/TodoList";
+// import HtmlAndCssProjects from "./components/SkillsDetails/HtmlAndCss";
 
 const App = () => (
   <BrowserRouter>
@@ -30,7 +32,9 @@ const App = () => (
       <Route path="/skills" element={<Skills />}>
         <Route path="bootstrap" element={<Bootstrap />} />
         <Route path="expressjs" element={<ExpressJs />} />
-        <Route path="htmlandcss" element={<HtmlAndCss />} />
+        <Route path="htmlandcss" element={<HtmlAndCss />}>
+          <Route path="todoList" element={<TodoList />} />
+        </Route>
         <Route path="javascript" element={<Javascript />} />
         <Route path="mysql" element={<MySql />} />
         <Route path="nodejs" element={<NodeJs />} />
