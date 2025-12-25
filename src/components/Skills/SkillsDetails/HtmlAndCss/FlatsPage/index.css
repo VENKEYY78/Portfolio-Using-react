@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.flats-bg-img-card {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/flats-list-bg.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.sunrise-card-section {
+    text-align: center;
+    background-color: #ffffff;
+    height: 200px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.Sunrise-main-heading {
+    color: #f19116;
+    font-size: 20px;
+    font-family: "bree Serif";
+    padding-top: 5px;
+}
+
+.sunrise-main-paragraph {
+    color: #7b8794;
+    font-family: "bree Serif";
+}
+
+.button {
+    background-color: #f19116;
+    border-width: 0px;
+}
+
+.sunrise-botttom-bg-section {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/flats-list-bg.png');
+    background-size: cover;
+
+}
+
+.flats-list-card1-img {
+    height: 180px;
+    width: 100px;
+}
+
+.flat-main-bg-card-section {
+    padding: 20px;
+}
+
+.bhk-flat-heading {
+    color: #0f0e46;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Bree serif";
+}
+
+.bhk-flat-paragraph {
+    color: #6c6b70;
+    font-size: 13px;
+    font-family: "Bree serif";
+}
+
+.flats-list-bg-card {
+    height: 180px;
+    background-color: #ffffff;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.Sunrise-main-heading2 {
+    color: #f19116;
+    font-size: 20px;
+    font-family: "bree Serif";
+}
+
+.button2 {
+    height: 40px;
+    width: 90px;
+    color: #ffffff;
+    border-radius: 9px;
+    background-color: #f19116;
+    border-width: 0px;
+}
+
+.food-street-img {
+    height: 200px;
+    width: 400px;
+}
+
+.description-bg-card-img {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.price-heading {
+    font-size: 25px;
+    font-family: "Bree Serif";
+    color: #f19116;
+    padding: 25px;
+}
+
+.food-location-paragraph {
+    font-size: 15px;
+    font-family: "Bree Serif";
+    color: #ffffff;
+    padding: 10px
+}
+
+
+.flats-list-location-icon-img {
+    height: 40px;
+    width: 40px;
+}
+
+.description-heading {
+    color: #f19116;
+    font-size: 30px;
+
+}
+
+.description-paragraph {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Bree Serif";
+}
+
+
+
+.description-main-card {
+    margin: 25px;
+}
+
+.hr-line {
+    background-color: #ffffff;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.food-street-bg-img {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png');
+    height: ;
+    background-size: cover;
+}
+
+.flats-list-d1-img {
+    height: 150vh;
+    background-image: url('https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png');
+    background-size: cover;
+}
+
+.price-bg-color {
+
+    background-color: #222222;
+    background-size: cover;
+}
+
+    {
+    -----------------------------------
+}
+
+.bhk-bg-containe {
+    background-color: #000000;
+    background-size: cover;
+}
+
+.img-container {
+    height: 40vh;
+    background-size: cover;
+}
+
+.image-01 {
+    height: 40vh;
+    width: 100%;
+}

@@ -1,12 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
-// import HtmlAndCss from "../SkillsDetails/HtmlAndCss";
-// import Bootstrap from "../SkillsDetails/Bootstrap";
-// import Python from "../SkillsDetails/Python";
-// import NodeJs from "../SkillsDetails/NodeJs";
-// import ExpressJs from "../SkillsDetails/ExpressJs";
-// import React from "../SkillsDetails/React";
-// import Javascript from "../SkillsDetails/Javascript";
-// import MySql from "../SkillsDetails/MySql";
+
 import "./index.css";
 
 const Skills = () => (

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.testimonials-bg-card {
+  background-color: #1f2933;
+  background-size: cover;
+}
+
+.testimonials-heading-card-01 {
+  color: #cced00;
+  font-size: 25px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.testimonials-heading-card-02 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.paragraph-01 {
+  color: #9aa5b1;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.Portfolio-Website-Testimonials-Section {
+  background-color: #323f4b;
+  background-size: cover;
+}
+
+.paragraph-02 {
+  color: #ffffff;
+  font-size: 25px;
+  padding: 16;
+}
+
+.portfolio-testimonials-1-img {
+  border-radius: 90px;
+  text-align: center;
+}

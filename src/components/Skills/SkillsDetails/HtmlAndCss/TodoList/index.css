@@ -3,7 +3,7 @@
 .Todolist-main-bg-container {
   background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/todolistbg.png");
   background-size: cover;
-  height: 100%;
+  height: 100vh;
 }
 
 .todo-card-header {
@@ -14,19 +14,21 @@
   color: #ffffff;
   text-align: center;
   font-family: "Roboto";
-  font-size: 40px;
+  font-size: 48px;
+  font-weight: bold;
 }
 
-.para-1 {
+.todo-card-description {
   color: white;
   font-size: 17px;
   font-family: "Roboto";
 }
 
-.heading-3 {
+.todo-title-heading {
   color: white;
   font-family: "Roboto";
   padding-top: 20px;
+  font-weight: bold;
 }
 
 .paragragh {
@@ -47,14 +49,19 @@
   color: #ffffff;
   font-family: "Roboto";
   font-size: 15px;
-  margin-bottom: 0px;
+  font-weight: bold;
 }
 
-.para-3 {
+.todo-bottom-text {
   color: white;
   font-family: "Roboto";
-  padding-top: 0px;
   text-decoration: underline;
-  margin-top: 0px;
+  font-weight: bold;
   font-size: 12px;
+}
+
+.back-navigate-button-container {
+  display: flex;
+  justify-content: end;
+  align-items: end;
 }

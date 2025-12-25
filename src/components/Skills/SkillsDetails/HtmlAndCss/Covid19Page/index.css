@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.covid-19-page-main-bg-container {
+  background-size: cover;
+  border: 6px solid #0967d219;
+  padding: 20px;
+}
+
+.top-section-left-heading {
+  color: #323f4b;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+.top-section-container-02 {
+  background-color: #0967d219;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.corona-virus-image {
+  padding: 30px;
+}
+
+.top-section-container-02-right {
+  padding: 14px;
+}
+
+.covid-19-test-heading {
+  color: #323f4b;
+  font-size: 17px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.paragragh-01 {
+  color: #707070;
+  font-size: 13px;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.Symptoms-heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #323f4b;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+.Symptom-container {
+  background-color: #3ebd93;
+  height: 120px;
+  width: 120px;
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.Symptom-image {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.Symptom-name {
+  font-family: "Roboto";
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.high-fever {
+  background-color: #e668a7;
+}
+
+.headache {
+  background-color: #a368fc;
+}
+
+.Symptoms-videos-container {
+  background-color: #e12d3919;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.doctor-image-container {
+  padding: 20px;
+}
+
+.prevent-heading {
+  color: #323f4b;
+  font-size: 17px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.paragragh-02 {
+  color: #707070;
+  font-size: 13px;
+  font-family: "Roboto";
+  font-weight: 400;
+}

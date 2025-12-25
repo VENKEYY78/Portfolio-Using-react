@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.technologies-cover-page-main-bg-container {
+  background-image: url(" https://d2clawv67efefq.cloudfront.net/ccbp-static-website/arvrbg.png");
+  height: 100vh;
+  background-size: cover;
+}
+
+.card-container {
+  background-color: #ffffff;
+  background-size: cover;
+
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h1 {
+  font-family: "Bree serif";
+  font-size: 20px;
+  font-weight: 500;
+  color: #5752ab;
+}
+
+p {
+  font-family: "Roboto";
+  font-size: 15px;
+  color: #323f4b;
+}
+
+.button-learn {
+  height: 35px;
+  width: 100px;
+  background-color: #ffffff;
+  margin: 5px;
+  border: 1px solid #5752ab;
+  color: #5752ab;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.button-save {
+  height: 35px;
+  width: 100px;
+  background-color: #5752ab;
+  margin: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 5px;
+}

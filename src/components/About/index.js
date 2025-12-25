@@ -52,13 +52,3 @@ const About = () => (
 );
 
 export default About;
-
-/*
-<SSC />
-      <DIPLAMO />
-      <Btech />
-
-      <Routes>
-         
-        </Routes>
- */

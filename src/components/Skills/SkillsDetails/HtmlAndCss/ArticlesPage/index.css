@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.empower-bg-container-section {
+  background-color: #225db0;
+  height: 100vh;
+  background-size: cover;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.empower-bg-container-section-01 {
+  background-color: #225db0;
+  background-size: cover;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.empower-articles-section-card {
+  text-align: center;
+  background-color: #ffffff;
+  height: 130px;
+  width: 150px;
+  border-radius: 6px;
+  padding: 25px;
+  margin: 10px;
+}
+
+.articles-technology-icon-img {
+  height: 40px;
+  width: 50px;
+}
+
+.empower-heading {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Roboto";
+}
+
+.empower-paragraph {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Roboto";
+}
+
+.empower-main-heading-section {
+}
+
+.Categories-Icons-paragraph {
+  color: #1f2933;
+}
+
+.carousel-imge-bg-card {
+  margin: 15px;
+}
+
+.carousel-imge-bg-card {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.list-of-topics {
+  color: #ffffff;
+  font-size: 17px;
+}
+
+.Carousel-Images-paragraph {
+  padding: 25px;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #225db0;
+  border-color: #ffffff;
+}

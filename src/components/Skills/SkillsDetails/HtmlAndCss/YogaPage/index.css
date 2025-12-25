@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.yoga-bg-img-card {
+  background-image: url("https://assets.ccbp.in/frontend/static-website/yoga-bg.png");
+  height: 100vh;
+  background-size: cover;
+}
+
+.yoga-heading-card {
+  text-align: center;
+  color: #132d84;
+  font-size: 30px;
+  width: 350px;
+}
+
+.yoga-girl-without-headphones-img {
+  height: 220px;
+  width: 300px;
+}
+
+.yoga-paragraoh-card {
+  color: #253263;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #132d84;
+  border-radius: 9px;
+  border-width: 0px;
+}
+
+.yoga-bottom-section {
+  text-align: center;
+}
+
+.yoga-next-page-section {
+  background-color: #ffedcd;
+}
+
+.types-of-yoga-heading {
+  text-align: center;
+  font-size: 30px;
+  color: #132d84;
+  font-weight: 500;
+}
+
+.yoga {
+  border-radius: 9px;
+  border-width: 0px;
+  margin-left: 15px;
+}
+
+.yoga-heading-card2 {
+  color: #132d84;
+  font-size: 18px;
+  font-family: "Roboto";
+}
+
+.yoga-logo-img {
+  height: 120px;
+  width: 150px;
+}
+
+.yoga-paragraph-card2 {
+  color: #253263;
+  font-size: 18px;
+  font-family: "Roboto";
+}
+
+.types-bottom-section {
+  background-color: #ffe2ab;
+  border-radius: 9px;
+  margin: 20px;
+}
+
+.back-button {
+  text-align: center;
+}
+
+.button3 {
+  height: 40px;
+  width: 90px;
+  background-color: #132d84;
+  color: #ffffff;
+  border-radius: 9px;
+  border-width: 0px;
+}

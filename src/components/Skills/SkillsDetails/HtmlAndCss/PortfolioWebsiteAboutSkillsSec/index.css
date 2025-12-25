@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.Portfolio-Website-card {
+  background-color: #323f4b;
+  height: 120v;
+  background-size: cover;
+}
+
+.paragraph-01 {
+  color: #cced00;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.heading-01 {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.paragraph-02 {
+  color: #9aa5b1;
+  font-size: 22px;
+}
+
+.skills-bg-card {
+  background-color: #1f2933;
+  background-size: cover;
+}
+
+.paragraph-03 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.htmal-card-img {
+  text-align: center;
+  background-color: #323f4b;
+  height: 130px;
+  width: 150px;
+  border-radius: 9px;
+  padding: 10px;
+  margin: 15px;
+}
+
+.Portfolio-Website-card-02 {
+  background-color: #1f2933;
+  height: 150vh;
+  background-size: cover;
+}

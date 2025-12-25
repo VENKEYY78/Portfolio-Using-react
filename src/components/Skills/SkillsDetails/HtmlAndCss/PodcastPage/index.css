@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.podcast-home-page-bg-image {
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.podcast-top-image-section {
+  height: 40vh;
+  width: 100%;
+  background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/podcasts-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.podcast-top-image-heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  padding: 20px;
+  font-size: 40px;
+}
+
+.podcast-bottom-section-container {
+  width: 100%;
+  background-size: cover;
+}
+
+.podcast-heading {
+  text-align: center;
+  margin: 20px;
+}
+
+.podcast-image {
+  height: 140px;
+  width: 200px;
+}
+
+.person-name {
+  color: #151765;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.no-of-episodes {
+  color: #5a7184;
+  font-size: 17px;
+  font-family: "Roboto";
+  font-weight: 200;
+  padding-top: 0px;
+}
+
+.podcast-person-main-bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.podcast-person-top-container {
+  height: 35%;
+  width: 100%;
+  background-color: #151765;
+  padding: 40px;
+  text-align: start;
+}
+
+.person-image {
+  height: 140px;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.podcast-01 {
+  margin: 20px;
+  text-align: center;
+}
+
+.podcast {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.name-heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.para {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.podcast-person-bottom-container {
+  padding: 10px;
+}
+
+.bottom-heading {
+  color: #151765;
+  font-size: 20px;
+}
+
+.bottom-para {
+  color: #5a7184;
+  font-size: 15px;
+}
+
+.details-card {
+  margin: 12px;
+}
+
+.button {
+  background-color: #151765;
+  color: #ffffff;
+  height: 30px;
+  width: 80px;
+  font-family: "Roboto";
+  margin: 10px;
+  border: 0px solid #151765;
+  border-radius: 13px;
+}

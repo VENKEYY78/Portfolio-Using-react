@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.movie-page-main-bg-container {
+  background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/orange-color-bg.png");
+  background-size: cover;
+  padding: 20px;
+}
+
+.Finding-container {
+  margin-top: 20px;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 35px;
+}
+
+.button {
+  height: 40px;
+  width: 100px;
+  color: #ff8348;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 300;
+  border: 0px solid #ffffff;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 35px;
+}
+
+.paragragh {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.similar-images {
+  margin-right: 20px;
+}
