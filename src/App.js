@@ -28,6 +28,8 @@ import AdvancedTechCard from "./components/Skills/SkillsDetails/HtmlAndCss/Advan
 import NewsPage from "./components/Skills/SkillsDetails/HtmlAndCss/NewsPage";
 import CricketerPage from "./components/Skills/SkillsDetails/HtmlAndCss/CricketerPage";
 
+import ProjectDetails from "./components/Skills/ProjectDetails";
+
 const App = () => (
   <BrowserRouter>
     <MyNavbar />
@@ -44,13 +46,18 @@ const App = () => (
       <Route path="/skills" element={<Skills />}>
         <Route path="bootstrap" element={<Bootstrap />} />
         <Route path="expressjs" element={<ExpressJs />} />
-        <Route path="/skills/htmlandcss" element={<HtmlAndCss />} />
+        <Route path="htmlandcss" element={<HtmlAndCss />} />
         <Route path="javascript" element={<Javascript />} />
         <Route path="mysql" element={<MySql />} />
         <Route path="nodejs" element={<NodeJs />} />
         <Route path="python" element={<Python />} />
         <Route path="react" element={<React />} />
       </Route>
+
+      <Route
+        path="/skills/htmlandcss/:projectName/details"
+        element={<ProjectDetails />}
+      />
 
       <Route path="/skills/htmlandcss/todolist" element={<TodoList />} />
       <Route path="/skills/htmlandcss/chatpage" element={<ChatPage />} />
@@ -67,6 +74,7 @@ const App = () => (
         element={<AdvancedTechCard />}
       />
       <Route path="skills/htmlandcss/newspage" element={<NewsPage />} />
+
       <Route
         path="skills/htmlandcss/cricketespage"
         element={<CricketerPage />}

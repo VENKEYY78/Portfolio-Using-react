@@ -12,7 +12,7 @@ const HtmlAndCss = () => (
         <ul className="project-card" key={project.id}>
           <h1>{project.title}</h1>
           <p>{project.description}</p>
-          <Link to={`/skills/htmlandcss/${project.id}`}>
+          <Link to={`/skills/htmlandcss/${project.id}/details`}>
             <button className="view-button" type="button">
               View
             </button>

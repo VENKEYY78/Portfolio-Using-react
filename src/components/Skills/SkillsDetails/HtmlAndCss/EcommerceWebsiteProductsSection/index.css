@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.products-card-container {
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+.products-card-container {
+  font-size: 20px;
+  color: #183b56;
+  font-weight: 500;
+}
+
+.smart-headphones-card {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png");
+  background-size: cover;
+  height: 50vh;
+  width: 350px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.heading-02 {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.smart-headphones-card-02 {
+  width: 200px;
+  padding: 10px;
+}
+
+.paragraph-01 {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.button-01 {
+  height: 35px;
+  width: 90px;
+  border-radius: 15px;
+  border-width: 0px;
+  font-size: 12px;
+  color: #ff9f00;
+}
+
+.modal-title {
+  font-size: 25px;
+}
+
+.span {
+  color: #323f4b;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.paragraph-02 {
+  color: #183b56;
+  font-size: 15px;
+}
+
+.button-03 {
+  background-color: transparent;
+  height: 40px;
+  width: 90px;
+  font-size: 17px;
+  border-radius: 9px;
+}
+
+.paragraph-03 {
+  color: #ff9f00;
+  font-size: 15px;
+}
