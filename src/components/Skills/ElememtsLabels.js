@@ -12,5 +12,4 @@ const elementLabels = {
   a: "Anchor (link) element",
   form: "Form element",
 };
-
 export default elementLabels;

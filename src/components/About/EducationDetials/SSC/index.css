@@ -1,0 +1,80 @@
+.ssc-main-bg-container {
+  width: 100%;
+  height: 80%;
+  box-shadow: 4px 6px 4px 4px rgba(34, 33, 33, 0.919);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.ssc-heading {
+  font-family: "roboto";
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ssc-description {
+  font-family: "roboto";
+  color: rgba(34, 33, 33, 0.919);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.gpa-circle {
+  position: relative;
+  width: 160px;
+  height: 160px;
+}
+
+svg {
+  transform: rotate(-90deg);
+}
+
+circle {
+  fill: none;
+  stroke-width: 8;
+  cx: 80;
+  cy: 80;
+  r: 50;
+}
+
+.bg {
+  stroke: #e6e6e6;
+}
+
+.progress {
+  stroke: #4caf50;
+  stroke-dasharray: 314; /* 2πr ≈ 440 */
+  stroke-dashoffset: 314;
+  animation: progressAnim 1.5s ease-out forwards;
+}
+
+@keyframes progressAnim {
+  to {
+    stroke-dashoffset: 80; /* 440 - (440 × 7.8 / 10) */
+  }
+}
+
+.gpa-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.gpa-text h2 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.gpa-text p {
+  margin: 0;
+  font-size: 10px;
+  color: rgb(255, 0, 0);
+}

@@ -8,14 +8,34 @@
   text-decoration: none;
   max-width: 100%;
   background-size: cover;
-  background-color: aquamarine;
+  background-color: transparent;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
   margin: 40px;
 }
 
-.link {
-  color: rgb(27, 30, 34);
+.skills-button {
+  min-width: 120px;
+  height: 30px;
+  background-color: rgb(254, 234, 11); /* normal */
   font-family: "Roboto";
+  border-radius: 5px;
+  margin: 2px;
+  box-shadow: 0px 2px 12px rgba(159, 157, 157, 0.5);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.skills-button.active {
+  background-color: rgb(29, 238, 10);
+  color: rgb(11, 11, 11);
 }

@@ -1,13 +1,13 @@
-import { Link, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 import "./index.css";
 
 const About = () => (
   <div className="about-main-bg-container">
-    <div className="about-career-objective-container">
-      <div className="about-left-side-container">
-        <h1>Career Objective</h1>
-        <p>
+    <div className="about-career-objective-left-container">
+      <div className="about-career-objective-container">
+        <h1 className="career-object-heading">Career Objective</h1>
+        <p className="career-object-description">
           Aspiring full-stack developer with a strong foundation in front-end
           and back-end technologies, seeking an opportunity to leverage my
           skills in creating scalable and efficient software solutions. Eager to
@@ -17,33 +17,71 @@ const About = () => (
         </p>
       </div>
       <div className="about-basic-details-container">
-        <h1>Personal Dteails</h1>
-        <ul>
-          <li>Name = Venkatesh Joka</li>
-          <li>Date of Birth = 30/06/2002</li>
-          <li>Age = 23</li>
-          <li>Gender = Male</li>
-          <li>Marital Status = UnMarried</li>
-          <li>Nationlity = Indian</li>
-          <li>State = Andhra pradesh </li>
-          <li>
-            Adress = Zulakallu(vlg), Piduguralla(mdl), Andhra Pradesh, 522413
+        <h1 className="personal-details-heading">Personal Dteails</h1>
+        <ul className="personal-details-list-container">
+          <li className="personal-details-list-item">
+            <strong>Name =</strong> Venkatesh Joka
           </li>
-          <li>Languages known = TELUGU, ENGLISH </li>
+          <li className="personal-details-list-item">
+            <strong>Date of Birth = </strong>30/06/2002
+          </li>
+          <li className="personal-details-list-item">
+            <strong>Age =</strong> 23
+          </li>
+          <li className="personal-details-list-item">
+            <strong>Gender = </strong>Male
+          </li>
+          <li className="personal-details-list-item">
+            <strong>Marital Status = </strong>UnMarried
+          </li>
+          <li className="personal-details-list-item">
+            <strong>Nationlity = </strong>Indian
+          </li>
+          <li className="personal-details-list-item">
+            <strong>State =</strong> Andhra pradesh{" "}
+          </li>
+          <li className="personal-details-list-item">
+            <strong>Adress =</strong> Zulakallu(vlg), Piduguralla(mdl), Andhra
+            Pradesh, 522413
+          </li>
+          <li className="personal-details-list-item">
+            <strong>Languages known =</strong> TELUGU, ENGLISH{" "}
+          </li>
         </ul>
       </div>
     </div>
-    <div className="about-right-side-container">
-      <h1>Education Details</h1>
+    <div className="about-right-side-education-details-container">
+      <h1 className="education-heading">Education Details</h1>
       <ul className="education-details-container">
         <li>
-          <Link to="ssc">SSC</Link>
+          <NavLink
+            to="ssc"
+            className={({ isActive }) =>
+              isActive ? "link skills-button active" : "link skills-button"
+            }
+          >
+            SSC
+          </NavLink>
         </li>
         <li>
-          <Link to="diplamo">DIPLAMO</Link>
+          <NavLink
+            to="diplamo"
+            className={({ isActive }) =>
+              isActive ? "link skills-button active" : "link skills-button"
+            }
+          >
+            DIPLAMO
+          </NavLink>
         </li>
         <li>
-          <Link to="btech">Btech</Link>
+          <NavLink
+            to="btech"
+            className={({ isActive }) =>
+              isActive ? "link skills-button active" : "link skills-button"
+            }
+          >
+            Btech
+          </NavLink>
         </li>
       </ul>
       <Outlet />

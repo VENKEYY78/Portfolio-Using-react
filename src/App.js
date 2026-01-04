@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"; // installed react router dom
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom"; // installed react router dom
 
 import HomePage from "./components/HomePage";
 import MyNavbar from "./components/MyNavbar";
@@ -19,6 +19,7 @@ import MySql from "./components/Skills/SkillsDetails/MySql";
 import NodeJs from "./components/Skills/SkillsDetails/NodeJs";
 import Python from "./components/Skills/SkillsDetails/Python";
 import React from "./components/Skills/SkillsDetails/React";
+import ALL from "./components/Skills/SkillsDetails/ALL";
 
 import TodoList from "./components/Skills/SkillsDetails/HtmlAndCss/TodoList";
 import ChatPage from "./components/Skills/SkillsDetails/HtmlAndCss/ChatPage";
@@ -38,12 +39,15 @@ const App = () => (
       <Route path="/" element={<HomePage />} />
 
       <Route path="/about" element={<About />}>
+        <Route index element={<Navigate to="ssc" replace />} />
         <Route path="ssc" element={<SSC />} />
         <Route path="diplamo" element={<DIPLAMO />} />
         <Route path="btech" element={<Btech />} />
       </Route>
 
-      <Route path="/skills" element={<Skills />}>
+      <Route path="/skills" element={<Skills ALL />}>
+        <Route index element={<Navigate to="all" replace />} />
+        <Route path="all" element={<ALL />} />
         <Route path="bootstrap" element={<Bootstrap />} />
         <Route path="expressjs" element={<ExpressJs />} />
         <Route path="htmlandcss" element={<HtmlAndCss />} />

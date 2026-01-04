@@ -1,18 +1,30 @@
+body {
+  padding-top: 70px; /* navbar height */
+}
+
 .mynavbar-main-bg-container {
-  height: 5%;
+  height: 10%;
   width: 100%;
   background-color: rgb(208, 225, 255);
   display: flex;
   justify-content: space-between;
   padding-left: 20px;
   padding-right: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .portfolio-heading {
-  font-family: "Bree serif";
-  font-weight: bold;
-  font-style: italic;
+  font-family: "Roboto";
+  font-weight: bol d;
   font-language-override: normal;
+  font-weight: bold;
+  padding: 0px;
+  margin-left: 10px;
+  padding-top: 5px;
 }
 
 .mynavbar-list-item-container {
@@ -37,4 +49,15 @@
   color: rgb(27, 30, 34);
   font-family: "Roboto";
   text-decoration: none;
+}
+
+.nav-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-profile-icon-img {
+  height: 100%;
+  border-radius: 20px;
 }

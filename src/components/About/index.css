@@ -1,16 +1,112 @@
 .about-main-bg-container {
   max-width: 100%;
-  max-height: 100%;
+  min-height: 100%;
   background-color: rgb(250, 250, 250);
   display: flex;
+  border: 2px solid green;
+  padding: 10px;
 }
 
-.about-left-side-container {
+.about-career-objective-left-container {
   max-width: 50%;
   max-height: 100%;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.9);
 }
 
-.about-right-side-container {
-  max-width: 50%;
-  max-height: 100%;
+.about-career-objective-container {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.9);
+}
+
+.career-object-heading {
+  font-family: "roboto";
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.career-object-description {
+  font-family: "roboto";
+  color: rgba(75, 72, 72, 0.919);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.about-basic-details-container {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.9);
+  padding: 10px;
+}
+
+.personal-details-heading {
+  font-family: "roboto";
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: underline;
+  padding-left: 20px;
+}
+
+.personal-details-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-details-list-item {
+  padding-left: 0px;
+  font-family: "roboto";
+  font-size: 20px;
+}
+
+.about-right-side-education-details-container {
+  width: 100%;
+  min-height: 100%;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.9);
+}
+
+.education-heading {
+  font-family: "roboto";
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.education-details-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
+.skills-button {
+  min-width: 120px;
+  height: 30px;
+  background-color: rgb(254, 234, 11);
+  font-family: "Roboto";
+  border-radius: 5px;
+  margin: 2px;
+  box-shadow: 0px 2px 12px rgba(159, 157, 157, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.skills-button.active {
+  background-color: rgb(29, 238, 10);
+  color: white;
 }

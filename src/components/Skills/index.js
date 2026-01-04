@@ -1,54 +1,114 @@
-import { Link, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 import "./index.css";
 
 const Skills = () => (
   <div className="skills-main-bg-container">
     <div>
-      <h1>Some Contact</h1>
+      <h1>Some Content</h1>
     </div>
+
     <ul className="skills-container">
       <li>
-        <Link className="link" to="htmlandcss">
+        <NavLink
+          to="all"
+          className={({ isActive }) =>
+            isActive ? "link skills-button active" : "link skills-button"
+          }
+        >
+          ALL
+        </NavLink>
+      </li>
+
+      <li>
+        <NavLink
+          to="htmlandcss"
+          className={({ isActive }) =>
+            isActive ? "link skills-button active" : "link skills-button"
+          }
+        >
           HTML & CSS
-        </Link>
+        </NavLink>
       </li>
+
       <li>
-        <Link className="link" to="javascript">
+        <NavLink
+          to="javascript"
+          className={({ isActive }) =>
+            isActive ? "link skills-button active" : "link skills-button"
+          }
+        >
           JAVASCRIPT
-        </Link>
+        </NavLink>
       </li>
+
       <li>
-        <Link className="link" to="bootstrap">
+        <NavLink
+          to="bootstrap"
+          className={({ isActive }) =>
+            isActive ? "link skills-button active" : "link skills-button"
+          }
+        >
           BOOTSTRAP
-        </Link>
+        </NavLink>
       </li>
+
       <li>
-        <Link className="link" to="python">
+        <NavLink
+          to="python"
+          className={({ isActive }) =>
+            isActive ? "link skills-button active" : "link skills-button"
+          }
+        >
           PYTHON
-        </Link>
+        </NavLink>
       </li>
+
       <li>
-        <Link className="link" to="mysql">
+        <NavLink
+          to="mysql"
+          className={({ isActive }) =>
+            isActive ? "link skills-button active" : "link skills-button"
+          }
+        >
           MYSQL
-        </Link>
+        </NavLink>
       </li>
+
       <li>
-        <Link className="link" to="nodejs">
+        <NavLink
+          to="nodejs"
+          className={({ isActive }) =>
+            isActive ? "link skills-button active" : "link skills-button"
+          }
+        >
           NODE JS
-        </Link>
+        </NavLink>
       </li>
+
       <li>
-        <Link className="link" to="expressjs">
+        <NavLink
+          to="expressjs"
+          className={({ isActive }) =>
+            isActive ? "link skills-button active" : "link skills-button"
+          }
+        >
           EXPRESS JS
-        </Link>
+        </NavLink>
       </li>
+
       <li>
-        <Link className="link" to="react">
+        <NavLink
+          to="react"
+          className={({ isActive }) =>
+            isActive ? "link skills-button active" : "link skills-button"
+          }
+        >
           REACT
-        </Link>
+        </NavLink>
       </li>
     </ul>
+
     <Outlet />
   </div>
 );

@@ -4,7 +4,7 @@ import LaptopView from "./LaptopView";
 import "./index.css";
 
 const MyNavbar = () => (
-  <div>
+  <div className=".navbar">
     <div className="Mynavbar-LaptopView">
       <LaptopView />
     </div>
