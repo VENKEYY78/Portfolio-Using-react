@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 // import { Nav } from "react-bootstrap";
 
@@ -17,29 +17,44 @@ const LaptopView = () => (
     <div className="mynavbar-list-item-container">
       <ul className="mynavber-list-items-container">
         <li className="mynavbar-list-item">
-          <Link className="link" to="/">
+          <NavLink
+            className={({ isActive }) => (isActive ? "link Active" : "link")}
+            to="/"
+          >
             Home
-          </Link>
+          </NavLink>
         </li>
         <li className="mynavbar-list-item">
-          <Link className="link" to="/about">
+          <NavLink
+            className={({ isActive }) => (isActive ? "link Active" : "link")}
+            to="/about"
+          >
             About
-          </Link>
+          </NavLink>
         </li>
         <li className="mynavbar-list-item">
-          <Link className="link" to="/skills">
+          <NavLink
+            className={({ isActive }) => (isActive ? "link Active" : "link")}
+            to="/skills"
+          >
             Skills
-          </Link>
+          </NavLink>
         </li>
         <li className="mynavbar-list-item">
-          <Link className="link" to="/projects">
+          <NavLink
+            className={({ isActive }) => (isActive ? "link Active" : "link")}
+            to="/projects"
+          >
             Projects
-          </Link>
+          </NavLink>
         </li>
         <li className="mynavbar-list-item">
-          <Link className="link" to="/contact">
+          <NavLink
+            className={({ isActive }) => (isActive ? "link Active" : "link")}
+            to="/contact"
+          >
             Contact Us
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </div>

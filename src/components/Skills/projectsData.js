@@ -1,11 +1,12 @@
 const projectsData = [
+  /*
   {
     id: "todolist",
     title: "Todo List",
     description:
       "A Todo List UI built with HTML and CSS that helps users organize daily tasks. The design is simple and motivational, encouraging productivity.",
     technologies: ["HTML", "CSS"],
-    elements: ["h1", "P", "div", "button"],
+    elements: ["h1", "p", "div", "button"],
   },
   {
     id: "chatpage",
@@ -302,10 +303,11 @@ const projectsData = [
     description:
       "A responsive landing page featuring a navigation bar and hero section with a headline, brief description, and sign-up button to highlight a web design tool.",
     technologies: ["HTML", "CSS", "Bootstrap"],
-  },
+  }, */
   {
     id: "designFeatures",
     title: "Responsive Design Features Section",
+    category: "html",
     description:
       "A responsive feature section highlighting design and development concepts with images, headings, and descriptive text.",
     technologies: ["HTML", "CSS", "Bootstrap"],
@@ -314,6 +316,7 @@ const projectsData = [
   {
     id: "featuresSectiontools",
     title: "Responsive Features Section",
+    category: "bootstrap",
     description:
       "A responsive features section showcasing product features with images, headings, and descriptive text using Bootstrap grid layout.",
     technologies: ["HTML", "CSS", "Bootstrap"],
@@ -321,9 +324,19 @@ const projectsData = [
   {
     id: "awesomeFeaturesSection",
     title: "Awesome Features Section",
+    category: "javascript",
     description:
       "A responsive features section showcasing key website design capabilities with icons and descriptions, built using Bootstrap.",
     technologies: ["HTML", "CSS", "Bootstrap"],
+  },
+
+  {
+    id: "colorPicker",
+    title: "Color Picker",
+    category: "javascript",
+    description:
+      "A JavaScript-based color picker that changes the background color dynamically and displays the selected hex value on the UI.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];
 

@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.button-01 {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  border-width: 3px;
+  background-color: #e0e0e0;
+}
+
+.button-02 {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  border-width: 3px;
+  background-color: #6fcf97;
+}
+
+.button-03 {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  border-width: 3px;
+  background-color: #56ccf2;
+}
+
+.button-04 {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  border-width: 3px;
+  background-color: #bb6bd9;
+}
+
+.main-bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.paragragh {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  background-color: black;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.span-01 {
+  color: #49a6e9;
+}
+
+.heading-01 {
+  color: #222222;
+  font-weight: 700;
+}

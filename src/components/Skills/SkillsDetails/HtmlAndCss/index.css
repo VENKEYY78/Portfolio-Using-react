@@ -1,9 +1,24 @@
-.html-and-css-projects-main-bg-container {
+.htmlandcss-projects-main-bg-container {
   max-width: 100%;
   background-size: cover;
   background-color: rgb(250, 250, 250);
   padding: 20px;
   display: flex;
+  opacity: 0;
+  transform: translateY(20px);
+
+  animation: pageFade 2s ease forwards;
+}
+
+@keyframes pageFade {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .project-card-container {
@@ -44,6 +59,7 @@
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
   max-height: 4.5em;

@@ -2,10 +2,8 @@
   width: 100%;
   height: 80%;
   box-shadow: 4px 6px 4px 4px rgba(34, 33, 33, 0.919);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+  border-radius: 10px;
   padding: 20px;
 }
 .ssc-heading {
@@ -25,38 +23,57 @@
   font-weight: 500;
 }
 
-.gpa-circle {
-  position: relative;
-  width: 160px;
-  height: 160px;
+.passed-out {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  font-size: larger;
 }
 
-svg {
+.circle-contianer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.gpa-circle {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  background-color: transparent;
+}
+
+.ssc-svg {
   transform: rotate(-90deg);
 }
 
-circle {
-  fill: none;
-  stroke-width: 8;
-  cx: 80;
-  cy: 80;
-  r: 50;
-}
-
 .bg {
-  stroke: #e6e6e6;
+  fill: none;
+  stroke-width: 6;
+  cx: 65;
+  cy: 65;
+  r: 55;
+  stroke: bisque;
 }
 
 .progress {
-  stroke: #4caf50;
-  stroke-dasharray: 314; /* 2πr ≈ 440 */
-  stroke-dashoffset: 314;
+  fill: none; /* 🔥 missing */
+  stroke: rgb(72, 245, 9);
+  stroke-width: 6;
+  stroke-dashoffset: 345;
+  stroke-dasharray: 345;
+  stroke-linecap: butt;
   animation: progressAnim 1.5s ease-out forwards;
+  cx: 65;
+  cy: 65;
+  r: 55;
 }
 
 @keyframes progressAnim {
   to {
-    stroke-dashoffset: 80; /* 440 - (440 × 7.8 / 10) */
+    stroke-dashoffset: 76;
   }
 }
 
@@ -70,11 +87,11 @@ circle {
 
 .gpa-text h2 {
   margin: 0;
-  font-size: 15px;
+  font-size: 28px;
 }
 
 .gpa-text p {
   margin: 0;
-  font-size: 10px;
-  color: rgb(255, 0, 0);
+  font-size: 14px;
+  color: gray;
 }

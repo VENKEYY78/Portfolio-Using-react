@@ -1,4 +1,4 @@
-.html-and-css-projects-main-bg-container {
+.all-projects-main-bg-container {
   max-width: 100%;
   background-size: cover;
   background-color: rgb(250, 250, 250);
@@ -21,24 +21,35 @@
   }
 }
 
-.project-card-container {
+.project-cards-container {
   display: flex;
   justify-content: space-evenly;
   gap: 10px;
   flex-wrap: wrap;
-  /*   border: 2px solid red; Identification */
 }
 
-.project-card {
+.all-project-card {
   width: 330px;
   height: 360px;
   border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px;
   padding-top: 30px;
+  transition: transform 1s linear;
+  cursor: pointer;
+  outline: none;
+  margin: 15px;
+
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+.all-project-card:hover {
+  transition-delay: 0.15s;
+  transform: scale(1.06);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25), 0 16px 32px rgba(0, 0, 0, 0.3);
+  border: 2px solid rgb(29, 238, 10);
 }
 
 .card-title {
@@ -73,7 +84,7 @@
   align-items: end;
 }
 
-.view-button {
+.view-button-all {
   margin-top: auto;
   height: 40px;
   width: 80px;

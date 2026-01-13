@@ -34,7 +34,7 @@ const ProjectDetails = () => {
         ))}
       </ul>
 
-      <Link to={`/skills/htmlandcss/${project.id}`}>
+      <Link to={`/skills/${project.category}/${project.id}`}>
         <button className="view-project-button">View Project</button>
       </Link>
     </div>

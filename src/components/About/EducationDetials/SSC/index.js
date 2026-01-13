@@ -19,16 +19,19 @@ const SSC = () => (
         <br />
       </p>
 
-      <strong> I completed my SSC in 2017 with a GPA of 7.8</strong>
-
-      <div class="gpa-circle">
-        <svg width="160" height="160">
-          <circle class="bg" cx="80" cy="80" r="70"></circle>
-          <circle class="progress" cx="80" cy="80" r="70"></circle>
-        </svg>
-        <div class="gpa-text">
-          <h2>7.8</h2>
-          <p>GPA</p>
+      <p className="passed-out">
+        <strong> I completed my SSC in 2017 with a GPA of 7.8</strong>
+      </p>
+      <div className="circle-contianer">
+        <div className="gpa-circle">
+          <svg className="ssc-svg" width="130" height="130">
+            <circle className="bg" cx="65" cy="65" r="55"></circle>
+            <circle className="progress" cx="65" cy="65" r="55"></circle>
+          </svg>
+          <div className="gpa-text">
+            <h2>7.8</h2>
+            <p>GPA</p>
+          </div>
         </div>
       </div>
     </div>

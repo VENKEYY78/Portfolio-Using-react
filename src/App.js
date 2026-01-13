@@ -29,6 +29,8 @@ import AdvancedTechCard from "./components/Skills/SkillsDetails/HtmlAndCss/Advan
 import NewsPage from "./components/Skills/SkillsDetails/HtmlAndCss/NewsPage";
 import CricketerPage from "./components/Skills/SkillsDetails/HtmlAndCss/CricketerPage";
 
+import ColorPicker from "./components/Skills/SkillsDetails/Javascript/ColorPicker";
+
 import ProjectDetails from "./components/Skills/ProjectDetails";
 
 const App = () => (
@@ -45,7 +47,7 @@ const App = () => (
         <Route path="btech" element={<Btech />} />
       </Route>
 
-      <Route path="/skills" element={<Skills ALL />}>
+      <Route path="/skills" element={<Skills />}>
         <Route index element={<Navigate to="all" replace />} />
         <Route path="all" element={<ALL />} />
         <Route path="bootstrap" element={<Bootstrap />} />
@@ -58,8 +60,27 @@ const App = () => (
         <Route path="react" element={<React />} />
       </Route>
 
+      {/* ALL PROJECTS Page Details Routes */}
+      <Route
+        path="/skills/all/:projectName/details"
+        element={<ProjectDetails />}
+      />
+
+      {/* HTML and CSS Projects Details Routes */}
       <Route
         path="/skills/htmlandcss/:projectName/details"
+        element={<ProjectDetails />}
+      />
+
+      {/* JAVASCRIPT Projects Details Routes */}
+      <Route
+        path="/skills/javascript/:projectName/details"
+        element={<ProjectDetails />}
+      />
+
+      {/* BOOTSTRAP Projects Details Routes */}
+      <Route
+        path="/skills/bootstrap/:projectName/details"
         element={<ProjectDetails />}
       />
 
@@ -83,6 +104,8 @@ const App = () => (
         path="skills/htmlandcss/cricketespage"
         element={<CricketerPage />}
       />
+
+      <Route path="skills/javascript/colorpicker" element={<ColorPicker />} />
 
       <Route path="/projects" element={<Projects />} />
       <Route path="/contact" element={<Contact />} />

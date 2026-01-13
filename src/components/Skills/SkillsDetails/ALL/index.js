@@ -2,15 +2,23 @@ import { Link } from "react-router-dom";
 import "./index.css";
 import projectsData from "../../projectsData";
 
+// const lentgh = projectsData.length;
+
+// console.log(lentgh);
+
 const ALL = () => (
-  <div className="html-and-css-projects-main-bg-container">
-    <div className="project-card-container">
+  <div className="all-projects-main-bg-container">
+    <div className="project-cards-container">
       {projectsData.map((project) => (
-        <ul className="project-card" key={project.id}>
+        <ul className="all-project-card" key={project.id}>
           <h1 className="card-title">{project.title}</h1>
           <p className="card-description">{project.description}</p>
-          <Link to={`/skills/htmlandcss/${project.id}/details`}>
-            <button className="view-button" type="button">
+          <Link to={`/skills/all/${project.id}/details`}>
+            <button
+              title="click to view"
+              className="view-button-all"
+              type="button"
+            >
               View
             </button>
           </Link>

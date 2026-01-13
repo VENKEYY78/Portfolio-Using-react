@@ -51,6 +51,18 @@ body {
   text-decoration: none;
 }
 
+.link.Active {
+  margin-bottom: 20px;
+  font-size: 25px;
+  border: 4px solid rgb(29, 238, 10);
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  font-weight: bold;
+  border-radius: 6px;
+  padding-bottom: 3px;
+}
+
 .nav-image-container {
   display: flex;
   justify-content: center;
