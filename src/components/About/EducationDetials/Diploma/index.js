@@ -1,6 +1,6 @@
 import "./index.css";
 
-const DIPLAMO = () => (
+const Diploma = () => (
   <>
     <div className="diplamo-main-bg-container">
       <h1 className="diplamo-heading">Diplamo Polytechnic</h1>
@@ -29,4 +29,4 @@ const DIPLAMO = () => (
   </>
 );
 
-export default DIPLAMO;
+export default Diploma;

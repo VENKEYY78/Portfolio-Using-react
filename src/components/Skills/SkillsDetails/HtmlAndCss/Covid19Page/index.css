@@ -6,42 +6,42 @@
   padding: 20px;
 }
 
-.top-section-left-heading {
+.covid-19-page-top-section-left-heading {
   color: #323f4b;
   font-size: 20px;
   font-family: "Roboto";
   font-weight: 300;
 }
 
-.top-section-container-02 {
+.covid-19-page-top-section-container-02 {
   background-color: #0967d219;
   margin-top: 20px;
   border-radius: 10px;
 }
 
-.corona-virus-image {
+.covid-19-page-corona-virus-image {
   padding: 30px;
 }
 
-.top-section-container-02-right {
+.covid-19-page-top-section-container-02-right {
   padding: 14px;
 }
 
-.covid-19-test-heading {
+.covid-19-page-covid-19-test-heading {
   color: #323f4b;
   font-size: 17px;
   font-family: "Roboto";
   font-weight: 600;
 }
 
-.paragragh-01 {
+.covid-19-page-paragragh-01 {
   color: #707070;
   font-size: 13px;
   font-family: "Roboto";
   font-weight: 400;
 }
 
-.Symptoms-heading {
+.covid-19-page-Symptoms-heading {
   margin-top: 20px;
   margin-bottom: 20px;
   color: #323f4b;
@@ -50,7 +50,7 @@
   font-weight: 300;
 }
 
-.Symptom-container {
+.covid-19-page-Symptom-container {
   background-color: #3ebd93;
   height: 120px;
   width: 120px;
@@ -60,44 +60,44 @@
   border-radius: 12px;
 }
 
-.Symptom-image {
+.covid-19-page-Symptom-image {
   height: 50px;
   width: 50px;
   margin-bottom: 10px;
 }
 
-.Symptom-name {
+.covid-19-page-Symptom-name {
   font-family: "Roboto";
   font-size: 15px;
   color: #ffffff;
 }
 
-.high-fever {
+.covid-19-page-high-fever {
   background-color: #e668a7;
 }
 
-.headache {
+.covid-19-page-headache {
   background-color: #a368fc;
 }
 
-.Symptoms-videos-container {
+.covid-19-page-Symptoms-videos-container {
   background-color: #e12d3919;
   padding: 20px;
   border-radius: 10px;
 }
 
-.doctor-image-container {
+.covid-19-page-doctor-image-container {
   padding: 20px;
 }
 
-.prevent-heading {
+.covid-19-page-prevent-heading {
   color: #323f4b;
   font-size: 17px;
   font-family: "Roboto";
   font-weight: 600;
 }
 
-.paragragh-02 {
+.covid-19-page-paragragh-02 {
   color: #707070;
   font-size: 13px;
   font-family: "Roboto";

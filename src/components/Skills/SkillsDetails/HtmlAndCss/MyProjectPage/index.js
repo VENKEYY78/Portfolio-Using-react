@@ -1,36 +1,94 @@
-import BackButton from '../../backButton.'
+import { useState } from "react";
 
-import './index.css'
+// import BackButton from "../../backButton";
 
+import AdvancedTechCard from "../AdvancedTechCoverPage";
+import NewsPage from "../NewsPage";
 
-const MyprojectsPage = () => (
+import "./index.css";
 
-     <div class="my-project-home-page-bg-container">
-        <!--My Project Home page top section-->
-        <div>
-            <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/software-developer-img.png"
-                class="my-project-home-page-image" />
-            <h1 class="my-project-home-page-heading">My Projects</h1>
-            <p class="my-project-home-page-paragraph">There are a few of my Static Website projects that I have
-                developed using HTML, CSS and Boostrap</p>
-        </div>
-        <!--My Project Home page bottom section -->
-        <div class="my-project-home-page-bottom-setion">
-            <div class="my-project-home-page-bottom-setion-A">
-                <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/advanced-technologies-img.png"
-                    class="my-project-home-page-bottom-setion-image" />
-                <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/diwali-img.png"
-                    class="my-project-home-page-bottom-setion-image" />
+const MyprojectPageProjects = {
+  Home: "myProjectHomePage",
+  Page_01: "myProjectPageAdvancedTech",
+  Page_02: "myProjectPageDivali",
+  Page_03: "myProjectPageHappyMealsPage",
+  Page_04: "myProjectPageNewsPaper",
+};
+
+const MyprojectsPage = () => {
+  const [activeProjectPage, setActiveProjectPage] = useState(
+    MyprojectPageProjects.Home
+  );
+  console.log(activeProjectPage);
+
+  return (
+    <>
+      {activeProjectPage === MyprojectPageProjects.Home && (
+        <div className="my-project-home-page-bg-container">
+          <div className="my-project-home-page-top-container">
+            <img
+              src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/software-developer-img.png"
+              className="my-project-home-page-image"
+              alt="myProjectImage"
+            />
+            <h1 className="my-project-home-page-top-heading">My Projects</h1>
+            <p className="my-project-home-page-top-paragraph">
+              There are a few of my Static Website projects that I have
+              developed using HTML, CSS and Boostrap
+            </p>
+          </div>
+
+          <div className="my-project-home-page-bottom-setion">
+            <div className="my-project-home-page-bottom-setion-A">
+              <img
+                src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/advanced-technologies-img.png"
+                className="my-project-home-page-bottom-setion-image"
+                alt="myProjectImage"
+                onClick={() =>
+                  setActiveProjectPage(MyprojectPageProjects.Page_01)
+                }
+              />
+              <img
+                src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/diwali-img.png"
+                className="my-project-home-page-bottom-setion-image"
+                alt="myProjectImage"
+                onClick={() =>
+                  setActiveProjectPage(MyprojectPageProjects.Page_02)
+                }
+              />
             </div>
-            <div class="my-project-home-page-bottom-setion-B">
-                <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/food-img.png"
-                    class="my-project-home-page-bottom-setion-image" />
-                <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/news-paper-img.png"
-                    class="my-project-home-page-bottom-setion-image" />
+            <div className="my-project-home-page-bottom-setion-A">
+              <img
+                src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/food-img.png"
+                className="my-project-home-page-bottom-setion-image"
+                alt="myProjectImage"
+                onClick={() =>
+                  setActiveProjectPage(MyprojectPageProjects.Page_03)
+                }
+              />
+              <img
+                src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/news-paper-img.png"
+                className="my-project-home-page-bottom-setion-image"
+                alt="myProjectImage"
+                onClick={() =>
+                  setActiveProjectPage(MyprojectPageProjects.Page_04)
+                }
+              />
             </div>
+          </div>
         </div>
-
-
-)
-
-export default MyprojectsPage
+      )}
+      {activeProjectPage === MyprojectPageProjects.Page_01 && (
+        <AdvancedTechCard />
+      )}
+      {activeProjectPage === MyprojectPageProjects.Page_02 && (
+        <h1>{activeProjectPage}</h1>
+      )}
+      {activeProjectPage === MyprojectPageProjects.Page_03 && (
+        <h1>{activeProjectPage}</h1>
+      )}
+      {activeProjectPage === MyprojectPageProjects.Page_04 && <NewsPage />}
+    </>
+  );
+};
+export default MyprojectsPage;

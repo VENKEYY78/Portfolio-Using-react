@@ -2,15 +2,19 @@
 
 .yoga-bg-img-card {
   background-image: url("https://assets.ccbp.in/frontend/static-website/yoga-bg.png");
-  height: 100vh;
+  min-height: calc(100vh - 70px);
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .yoga-heading-card {
-  text-align: center;
   color: #132d84;
   font-size: 30px;
   width: 350px;
+  text-align: center;
 }
 
 .yoga-girl-without-headphones-img {
@@ -36,7 +40,17 @@
 }
 
 .yoga-next-page-section {
+  min-height: calc(100vh - 70px);
+  list-style-type: none;
   background-color: #ffedcd;
+  display: flex;
+  justify-content: center;
+}
+.yoga-types-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .types-of-yoga-heading {
@@ -44,6 +58,7 @@
   font-size: 30px;
   color: #132d84;
   font-weight: 500;
+  margin-top: 10px;
 }
 
 .yoga {
@@ -73,6 +88,9 @@
   background-color: #ffe2ab;
   border-radius: 9px;
   margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .back-button {

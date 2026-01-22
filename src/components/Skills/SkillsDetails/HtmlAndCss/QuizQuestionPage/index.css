@@ -2,7 +2,7 @@
 
 .Quiz-Question-page-main-bg-container {
   background-color: #875fc0;
-  min-height: 100vh;
+  min-height: calc(100vh - 70px);
   background-size: cover;
   padding: 30px;
 }

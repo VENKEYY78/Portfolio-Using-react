@@ -1,4 +1,4 @@
-import BackButton from "../../backButton.";
+import BackButton from "../../backButton";
 
 import "./index.css";
 
@@ -13,6 +13,7 @@ const QuizQuestionsPage = () => (
       <img
         src=" https://d2clawv67efefq.cloudfront.net/ccbp-static-website/coding-question-img.png"
         class="coding-page-image"
+        alt="codingImage"
       />
     </div>
     <div class="options-container">
@@ -23,6 +24,9 @@ const QuizQuestionsPage = () => (
         <li class="list-item">D.None of the given options</li>
       </ol>
       <button class="btn btn-warning button">Submit</button>
+    </div>
+    <div className="back-navigate-button-container">
+      <BackButton />
     </div>
   </div>
 );

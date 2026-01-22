@@ -11,5 +11,6 @@ const elementLabels = {
   img: "Image element",
   a: "Anchor (link) element",
   form: "Form element",
+  Carousel: "Bootstrap Carousel",
 };
 export default elementLabels;

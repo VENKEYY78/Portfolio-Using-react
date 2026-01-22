@@ -3,7 +3,7 @@ body {
 }
 
 .mynavbar-main-bg-container {
-  height: 10%;
+  height: 70px;
   width: 100%;
   background-color: rgb(208, 225, 255);
   display: flex;
@@ -19,18 +19,17 @@ body {
 
 .portfolio-heading {
   font-family: "Roboto";
-  font-weight: bol d;
   font-language-override: normal;
-  font-weight: bold;
   padding: 0px;
   margin-left: 10px;
   padding-top: 5px;
+  color: black;
+  font-weight: bold;
 }
 
 .mynavbar-list-item-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
 }
 
 .mynavber-list-items-container {

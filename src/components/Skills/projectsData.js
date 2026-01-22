@@ -1,153 +1,245 @@
 const projectsData = [
   /*
   {
+    idNo: "001",
     id: "todolist",
     title: "Todo List",
+    category: "html",
     description:
       "A Todo List UI built with HTML and CSS that helps users organize daily tasks. The design is simple and motivational, encouraging productivity.",
     technologies: ["HTML", "CSS"],
     elements: ["h1", "p", "div", "button"],
   },
   {
+    idNo: "002",
     id: "chatpage",
     title: "Chat Page",
+    category: "html",
     description:
       "A chat interface built with HTML and CSS, showing a conversation between two users in a card layout.",
     technologies: ["HTML", "CSS"],
+    elements: ["h1", "p", "div"],
   },
+
   {
+    idNo: "003",
     id: "codingcoverpage",
     title: "Coding Cover Page",
+    category: "html",
     description: "A minimal Bootstrap UI showing a motivational coding quote.",
     technologies: ["HTML", "CSS", "Bootstrap"],
+    elements: ["div", "h1"],
   },
+
   {
+    idNo: "004",
     id: "foodorderpage",
     title: "Food Order Page",
+    category: "html",
     description:
-      "A responsive landing page for food orders built using HTML and Bootstrap.",
-    technologies: ["HTML", "Bootstrap"],
+      "A responsive landing page for food orders built using HTML , CSS and Bootstrap.",
+    technologies: ["HTML", "CSS", "Bootstrap"],
+    elements: ["h1", "p", "div", "button"],
   },
+
   {
+    idNo: "005",
     id: "advancedtechcoverpage",
-    title: "Advanced Technologies Card",
+    title: "Advanced Technologies Cover Page",
+    category: "html",
     description: "A Bootstrap card displaying advanced technologies.",
-    technologies: ["HTML", "Bootstrap"],
+    technologies: ["HTML", "CSS", "Bootstrap"],
+    elements: ["h1", "p", "div", "button"],
   },
+
   {
+    idNo: "006",
     id: "newspage",
     title: "News Page",
+    category: "html",
     description: "A Bootstrap-based news page showing a featured article.",
-    technologies: ["HTML", "Bootstrap"],
+    technologies: ["HTML", "CSS",  "Bootstrap"],
+    elements: ["h1", "p", "div", "button"],
   },
+
   {
-    id: "klrahulpage",
-    title: "KL Rahul Cricket Page",
+    idNo: "007",
+    id: "hotelBooking",
+    title: "Hotel Booking Page",
+    category: "html",
+    description:
+      "A simple hotel booking card UI built with HTML ,CSS and Bootstrap.",
+    technologies: ["HTML", "CSS", "Bootstrap"],
+    elements: ["h1", "p", "div", "button"],
+  },
+
+  {
+    idNo: "008",
+    id: "cricketerPage",
+    title: "Cricket Page",
+    category: "html",
     description:
       "A responsive cricket profile page using HTML, CSS, and Bootstrap.",
     technologies: ["HTML", "CSS", "Bootstrap"],
+    elements: ["h1", "p", "div", "button", "img"],
   },
+
   {
-    id: "hotelBooking",
-    title: "Hotel Booking Card",
-    description:
-      "A simple hotel booking card UI built with HTML and Bootstrap.",
-    technologies: ["HTML", "Bootstrap"],
-  },
-  {
+    idNo: "009",
     id: "covid19Page",
-    title: "COVID-19 Awareness Page",
-    description: "A responsive COVID-19 info page.",
+    title: "COVID-19 Page",
+    category: "html",
+    description:
+      "A responsive COVID-19 info page UI build with HTML,CSS,And Bootstrap.",
     technologies: ["HTML", "CSS", "Bootstrap"],
-  },
+    elements: ["h1", "p", "div", "button", "img"],
+  },*/
+  /*
   {
-    id: "goaTravelPage",
-    title: "Goa Travel Page",
+    idNo: "010",
+    id: "goaPage",
+    title: "Goa Page",
+    category: "html",
     description: "A travel webpage showcasing Goa using Bootstrap.",
     technologies: ["HTML", "CSS", "Bootstrap"],
+    elements: ["h1", "p", "div", "button", "Carousel"],
   },
+  
   {
+    idNo:"011",
     id: "findingNemoPage",
     title: "Finding Nemo Movie Page",
+     category: "html",
     description: "A Bootstrap-based movie page.",
     technologies: ["HTML", "CSS", "Bootstrap"],
-  },
+  }, 
   {
-    id: "conferencePage",
-    title: "The Things Conference",
-    description: "A responsive conference landing page.",
-    technologies: ["HTML", "Bootstrap"],
-  },
-  {
-    id: "mobileSpecsPage",
+    idNo: "012",
+    id: "mobilespecificationspage",
     title: "Mobile Specifications Page",
+    category: "html",
     description: "A responsive mobile specs page.",
     technologies: ["HTML", "CSS", "Bootstrap"],
+    elements: ["h1", "p", "div", "ul", "li", "button", "img"],
   },
+
   {
-    id: "multiSectionPage",
-    title: "Multi-Section Page Navigation",
-    description: "A multi-section navigation page.",
+    idNo: "013",
+    id: "conferencePage",
+    title: "Conference Page",
+    category: "html",
+    description: "A responsive conference landing page.",
     technologies: ["HTML", "CSS", "Bootstrap"],
+    elements: ["h1", "p", "div", "button", "img"],
   },
+
   {
+    idNo: "014",
+    id: "quizQuestionPage",
+    title: "Quiz Question Page ",
+    category: "html",
+    description: "A quiz interface created using Bootstrap.",
+    technologies: ["HTML", "CSS", "Bootstrap"],
+    elements: ["h1", "p", "div", "img", "ul", "li", "button"],
+  },
+ 
+
+  {
+    idNo: "015",
     id: "podcastPage",
-    title: "Podcast Home Page",
+    title: "Podcast Page",
+    category: "html",
     description: "A podcast platform UI.",
     technologies: ["HTML", "CSS", "Bootstrap"],
+    elements: ["h1", "p", "div", "img", "button"],
   },
+
   {
-    id: "quizPage",
-    title: "Quiz Page UI",
-    description: "A quiz interface created using Bootstrap.",
-    technologies: ["HTML", "Bootstrap"],
-  },
-  {
-    id: "sleepMusicPage",
-    title: "Sleep Music UI",
+    idNo: "016",
+    id: "MusicPage",
+    title: "Music Page",
+    category: "html",
     description: "A responsive Sleep Music UI.",
     technologies: ["HTML", "CSS", "Bootstrap"],
+    elements: ["h1", "p", "div", "button", "img"],
   },
+
   {
-    id: "popularBookStore",
-    title: "Popular Book Store",
+    idNo: "017",
+    id: "bookStorePage",
+    title: "Book Store Page",
+    category: "html",
     description: "A responsive book store UI.",
     technologies: ["HTML", "CSS", "Bootstrap"],
+    elements: ["h1", "p", "div", "img", "buttom"],
   },
+
   {
-    id: "myProjectsSection",
-    title: "My Projects Section",
+    idNo: "018",
+    id: "myProjectsPageSection",
+    title: "My Projects Page Section",
+    category: "html",
     description: "A portfolio-style projects section.",
     technologies: ["HTML", "CSS", "Bootstrap"],
-  },
+    elements: ["h1", "p", "div", "img", "button"],
+  }, 
+
   {
-    id: "shopStoresPage",
-    title: "Shop in Favorite Stores",
+    idNo: "018",
+    id: "favoriteStoresPage",
+    title: "Favorite Stores Page",
+    category: "html",
     description: "A shopping directory page.",
     technologies: ["HTML", "CSS", "Bootstrap"],
+    elements: ["h1", "p", "div", "img"],
   },
+
   {
+    idNo: "019",
     id: "foundationsPage",
     title: "Foundations Courses Page",
+    category: "html",
     description: "A foundations learning page.",
     technologies: ["HTML", "CSS", "Bootstrap"],
+    elements: ["h1", "p", "div", "img", "ul", "li"],
   },
+ 
+
   {
+    idNo: "020",
     id: "yogaExperiencePage",
-    title: "Yoga Experience Platform",
+    title: "Yoga Platform Page",
+    category: "html",
     description: "A yoga experience webpage.",
     technologies: ["HTML", "CSS", "Bootstrap"],
-  },
+    elements: ["h1", "p", "div", "img", "button"],
+  }, 
+
   {
-    id: "flatBookingApp",
-    title: "Flat Booking Application",
+    idNo: "021",
+    id: "flatsBookingPage",
+    title: "Flats Booking Page",
+    category: "html",
     description: "A flat booking website.",
     technologies: ["HTML", "CSS", "Bootstrap"],
-  },
+    elements: ["h1", "p", "div", "button", "img"],
+  },*/
+
   {
+    idNo: "022",
     id: "articlesCarouselPage",
-    title: "Articles by Category",
+    title: "Articles Pages",
+    category: "html",
     description: "Category-wise articles page.",
+    technologies: ["HTML", "CSS", "Bootstrap"],
+    elements: ["h1", "p", "div", "img", "ol", "li", "Carousel", "ul"],
+  },
+  /*
+   {
+    id: "multiSectionPage",
+    title: "Multi-Section Page Navigation",
+    category: "html",
+    description: "A multi-section navigation page.",
     technologies: ["HTML", "CSS", "Bootstrap"],
   },
   {
@@ -303,7 +395,7 @@ const projectsData = [
     description:
       "A responsive landing page featuring a navigation bar and hero section with a headline, brief description, and sign-up button to highlight a web design tool.",
     technologies: ["HTML", "CSS", "Bootstrap"],
-  }, */
+  }, 
   {
     id: "designFeatures",
     title: "Responsive Design Features Section",
@@ -338,6 +430,7 @@ const projectsData = [
       "A JavaScript-based color picker that changes the background color dynamically and displays the selected hex value on the UI.",
     technologies: ["HTML", "CSS", "JavaScript"],
   },
+  */
 ];
 
 export default projectsData;

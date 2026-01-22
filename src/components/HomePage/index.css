@@ -1,5 +1,6 @@
 .home-page-main-bg-container {
-  max-height: 100vh;
+  min-height: calc(100vh - 70px); /* ✅ remaining screen */
+  margin-top: 70px; /* ✅ navbar kindha start */
   max-width: 100%;
   background-color: rgb(255, 255, 255);
   display: flex;
@@ -35,4 +36,11 @@
   .home-page-cover-photo {
     height: 200px;
   }
+}
+
+.home-page-name-intraduction {
+  color: black;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: bold;
 }

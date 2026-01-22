@@ -34,7 +34,7 @@
 
 .main-bg-container {
   background-color: #ffffff;
-  height: 100vh;
+  min-height: 100%;
 }
 
 .paragragh {

@@ -2,11 +2,15 @@
 
 .food-order-pade-main-bg-container {
   background-image: url(" https://d2clawv67efefq.cloudfront.net/ccbp-static-website/foodbg.png");
-  height: 100vh;
+  min-height: calc(100vh - 70px);
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-top: 20px;
 }
 
-.card-container {
+.food-order-card-container {
   background-color: #f6c56e;
   background-size: cover;
   padding: 30px;
@@ -14,15 +18,21 @@
   border-top-right-radius: 20px;
 }
 
-.heading {
+.food-order-card-heading {
   font-family: "Bree-Serif";
   color: #323f4b;
   font-weight: 600;
 }
 
-.paragragh {
+.fodd-order-card-paragragh {
   font-family: "Roboto";
   font-size: 15px;
   color: #323f4b;
   font-weight: 500;
+}
+
+.food-order-button {
+  background-color: #ffffff;
+  font-family: "roboto";
+  font-weight: bold;
 }

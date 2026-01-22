@@ -7,9 +7,6 @@ const BootstrapProjects = projectsData.filter(
   (project) => project.category === "bootstrap"
 );
 
-console.log(BootstrapProjects.length);
-// console.log(BootstrapProjects);
-
 const Bootstrap = () => (
   <div className="bootstrap-projects-main-bg-container">
     <div className="project-card-container">

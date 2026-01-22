@@ -2,7 +2,7 @@
 
 .foundations-bg-img {
   background-image: url("https://assets.ccbp.in/frontend/static-website/foundations-bg.png");
-  height: 100vh;
+  min-height: calc(100vh - 70px);
   background-size: cover;
 }
 
@@ -24,6 +24,12 @@
   color: #7b8794;
   font-size: 18px;
   font-family: "Roboto";
+}
+
+.foundations {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .foundations-python-img {

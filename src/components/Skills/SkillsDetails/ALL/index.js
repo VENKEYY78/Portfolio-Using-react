@@ -2,10 +2,6 @@ import { Link } from "react-router-dom";
 import "./index.css";
 import projectsData from "../../projectsData";
 
-// const lentgh = projectsData.length;
-
-// console.log(lentgh);
-
 const ALL = () => (
   <div className="all-projects-main-bg-container">
     <div className="project-cards-container">

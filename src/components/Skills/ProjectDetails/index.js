@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import projectsData from "../projectsData";
 import elementLabels from "../ElememtsLabels";
 import technologiesFullForms from "../Technologies";
+import BackButton from "../SkillsDetails/backButton";
 import "./index.css";
 
 const ProjectDetails = () => {
@@ -13,6 +14,7 @@ const ProjectDetails = () => {
 
   return (
     <div className="project-details-bg-contaainer">
+      <p>{project.idNo}</p>
       <h1 className="project-heading">{project.title}</h1>
       <p className="project-description">{project.description}</p>
 
@@ -37,6 +39,9 @@ const ProjectDetails = () => {
       <Link to={`/skills/${project.category}/${project.id}`}>
         <button className="view-project-button">View Project</button>
       </Link>
+      <div className="back-navigate-button-container">
+        <BackButton />
+      </div>
     </div>
   );
 };

@@ -1,5 +1,6 @@
 .chat-page-bg-container {
   background-image: url(" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png");
+  min-height: calc(100vh - 70px);
 }
 
 .person-name {

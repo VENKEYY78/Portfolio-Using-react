@@ -1,54 +1,48 @@
-// Simport { useState } from "react";
+import { useState } from "react";
+
 import "./index.css";
 
-const button1 = () => {
-  //const [isActive, setIsActive] = useState(false);
-  console.log("clicked1");
-};
+const ColorPicker = () => {
+  const [bgColor, setBgColr] = useState("#ffffff");
 
-const button2 = (click) => {
-  console.log("clicked2");
-};
+  const changeColor = (color) => {
+    setBgColr(color);
+  };
 
-const button3 = (click) => {
-  console.log("clicked");
-};
+  return (
+    <div
+      className="main-bg-container text-center d-flex flex-column justify-content-center"
+      style={{ backgroundColor: bgColor }}
+    >
+      <h1 className="heading-01">Color Picker</h1>
+      <div className="mt-3 mb-4">
+        <button className="button-01" onClick={() => changeColor("#e0e0e0")}>
+          #e0e0e0
+        </button>
+        <button className="button-02" onClick={() => changeColor("#6fcf97")}>
+          #6fcf97
+        </button>
 
-const button4 = (click) => {
-  console.log("clicked");
-};
+        <button className="button-03" onClick={() => changeColor("#56ccf2")}>
+          #56ccf2
+        </button>
 
-const ColorPicker = () => (
-  <div
-    className="main-bg-container text-center d-flex flex-column justify-content-center"
-    id="colorPickerContainer"
-  >
-    <h1 className="heading-01">Color Picker</h1>
-    <div className="mt-3 mb-4">
-      <button className="button-01" onClick={button1}>
-        #e0e0e0
-      </button>
-      <button className="button-02" onClick={button2}>
-        #6fcf97
-      </button>
-      <button className="button-03" onClick={button3}>
-        #56ccf2
-      </button>
-      <button className="button-04" onClick={button4}>
-        #bb6bd9
-      </button>
+        <button className="button-04" onClick={() => changeColor("#bb6bd9")}>
+          #bb6bd9
+        </button>
+      </div>
+      <p className="paragragh">
+        Background Color :
+        <span className="span-01" id="selectedColorHexCode">
+          {bgColor}
+        </span>
+      </p>
+      <p>
+        Try clicking on one of the colors above to change the background color
+        of this page!
+      </p>
     </div>
-    <p className="paragragh">
-      Background Color :
-      <span className="span-01" id="selectedColorHexCode">
-        #fffff
-      </span>
-    </p>
-    <p>
-      Try clicking on one of the colors above to change the background color of
-      this page!
-    </p>
-  </div>
-);
+  );
+};
 
 export default ColorPicker;

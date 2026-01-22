@@ -1,42 +1,117 @@
-import './index.css'
+import { useState } from "react";
 
-const ArticlesPage = () => (
+import "./index.css";
 
+const ArticlesPages = {
+  Home: "ArticalHomePage",
+  TechnologyPage: "TechnologyArticalPage",
+  SciencePage: "ScienceArticalPage",
+  HealthCarePage: "HealthCareArticalPage",
+  BusinessPage: "BusinessArticalPage",
+};
 
-     <div id="sectionHome">
-        <div class="empower-bg-container-section">
-            <div class="empower-main-heading-section">
-                <h1 class="empower-heading">Empower yourself</h1>
-                <p class="empower-paragraph">By learning new coursses from worlds leading experts</p>
+const ArticlesPage = () => {
+  const [activeArticalPage, setActiveArticalPage] = useState(
+    ArticlesPages.Home,
+  );
+
+  return (
+    <>
+      {activeArticalPage === ArticlesPages.Home && (
+        <div className="empower-bg-container-section">
+          <div className="empower-main-heading-section">
+            <h1 className="empower-heading">Empower yourself</h1>
+            <p className="empower-paragraph">
+              By learning new coursses from worlds leading experts
+            </p>
+          </div>
+          <div className="Artical-cards-containers">
+            <div className="d-flex flex-row justify-content-start">
+              <div
+                className="empower-articles-section-card"
+                onClick={() =>
+                  setActiveArticalPage(ArticlesPages.TechnologyPage)
+                }
+              >
+                <img
+                  src="https://assets.ccbp.in/frontend/static-website/articles-technology-icon-img.png"
+                  className="articles-technology-icon-img"
+                  alt="articalImage"
+                />
+                <p className="Categories-Icons-paragraph">Technology</p>
+              </div>
+
+              <div
+                className="empower-articles-section-card"
+                onClick={() => setActiveArticalPage(ArticlesPages.SciencePage)}
+              >
+                <img
+                  src="https://assets.ccbp.in/frontend/static-website/articles-science-icon-img.png"
+                  className="articles-technology-icon-img"
+                  alt="articalImage"
+                />
+                <p className="Categories-Icons-paragraph">Science</p>
+              </div>
             </div>
-            <div class="d-flex flex-row justify-content-start">
-                <div class="empower-articles-section-card" onclick="display('section1')">
-                    <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-icon-img.png" class="articles-technology-icon-img" />
-                    <p class="Categories-Icons-paragraph">Technology</p>
-                </div>
 
-                <div class="empower-articles-section-card" onclick="display('section2')">
-                    <img src="https://assets.ccbp.in/frontend/static-website/articles-science-icon-img.png" class="articles-technology-icon-img" />
-                    <p class="Categories-Icons-paragraph">Science</p>
-                </div>
+            <div className="d-flex flex-row d-flex justify-content-start">
+              <div
+                className="empower-articles-section-card "
+                onClick={() =>
+                  setActiveArticalPage(ArticlesPages.HealthCarePage)
+                }
+              >
+                <img
+                  src="https://assets.ccbp.in/frontend/static-website/articles-healthcare-icon-img.png"
+                  className="articles-technology-icon-img"
+                  alt="articalImage"
+                />
+                <p className="Categories-Icons-paragraph ">Health Care</p>
+              </div>
+
+              <div
+                className="empower-articles-section-card"
+                onClick={() => setActiveArticalPage(ArticlesPages.BusinessPage)}
+              >
+                <img
+                  src="https://assets.ccbp.in/frontend/static-website/articles-business-icon-img.png"
+                  className="articles-technology-icon-img"
+                  alt="articalImage"
+                />
+                <p className="Categories-Icons-paragraph ">Business</p>
+              </div>
             </div>
-
-            <div class="d-flex flex-row d-flex justify-content-start">
-                <div class="empower-articles-section-card " onclick="display('section3')">
-                    <img src="https://assets.ccbp.in/frontend/static-website/articles-healthcare-icon-img.png" class="articles-technology-icon-img" />
-                    <p class="Categories-Icons-paragraph ">Health Care</p>
-                </div>
-
-
-                <div class="empower-articles-section-card" onclick="display('section4')">
-                    <img src="https://assets.ccbp.in/frontend/static-website/articles-business-icon-img.png" class="articles-technology-icon-img" />
-                    <p class="Categories-Icons-paragraph ">Business</p>
-                </div>
-            </div>
+          </div>
         </div>
-    </div>
+      )}
+      {activeArticalPage === ArticlesPages.TechnologyPage && (
+        <h1 onClick={() => setActiveArticalPage(ArticlesPages.Home)}>
+          Technologies
+        </h1>
+      )}
+      {activeArticalPage === ArticlesPages.HealthCarePage && (
+        <h1 onClick={() => setActiveArticalPage(ArticlesPages.Home)}>
+          HealthCarePage
+        </h1>
+      )}
+      {activeArticalPage === ArticlesPages.SciencePage && (
+        <h1 onClick={() => setActiveArticalPage(ArticlesPages.Home)}>
+          SciencePage
+        </h1>
+      )}
+      {activeArticalPage === ArticlesPages.BusinessPage && (
+        <h1 onClick={() => setActiveArticalPage(ArticlesPages.Home)}>
+          BusinessPage
+        </h1>
+      )}
+    </>
+  );
+};
 
-    <div id="section1">
+export default ArticlesPage;
+
+/*
+ <div id="section1">
         <div class="empower-bg-container-section-01">
             <div id="Technology-carousel-indicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -236,7 +311,4 @@ const ArticlesPage = () => (
             </div>
         </div>
     </div>
-
-)
-
-export default ArticlesPage
+    */

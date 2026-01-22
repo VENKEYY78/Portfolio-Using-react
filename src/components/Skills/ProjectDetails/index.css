@@ -14,11 +14,12 @@
   font-size: 30px;
   font-weight: 800;
   text-decoration: underline;
+  color: black;
 }
 
 .project-description {
   font-family: roboto;
-  font-size: 15pxpx;
+  font-size: 20pxpx;
   font-weight: 300;
   text-align: center;
 }
@@ -62,4 +63,11 @@
   cursor: pointer;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   margin-top: 20px;
+}
+
+.back-navigate-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 30px;
 }

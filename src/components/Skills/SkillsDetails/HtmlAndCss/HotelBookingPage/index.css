@@ -2,13 +2,12 @@
 
 .hotal-booking-page-main-bg-container {
   background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/hotelbg.png");
-  height: 100vh;
-  width: 100%;
+  min-height: calc(100vh - 70px);
   background-size: cover;
   padding: 30px;
 }
 
-.card-container {
+.hotal-booking-card-container {
   width: 100%;
   background-color: #000000e6;
   background-size: cover;
@@ -17,28 +16,28 @@
   padding-top: 12px;
 }
 
-.hotal-name-heading {
+.hotal-booking-name-heading {
   color: #ffffff;
   font-size: 25px;
   font-family: "Bree serif";
   font-weight: 400;
 }
 
-.land-mark {
+.hotal-booking-land-mark {
   color: #ffffff;
   font-size: 15px;
   font-family: "Roboto";
   font-weight: 100;
 }
 
-.price {
+.hotal-booking-price {
   color: #ffffff;
   font-size: 25px;
   font-family: "Bree serif";
   font-weight: 400;
 }
 
-.button {
+.hotal-booking-button {
   height: 40px;
   width: 120px;
   background-color: #ffffff;

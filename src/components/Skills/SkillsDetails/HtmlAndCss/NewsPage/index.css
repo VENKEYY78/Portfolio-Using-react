@@ -2,7 +2,7 @@
 
 .news-page-main-bg-container {
   background-image: url(" https://d2clawv67efefq.cloudfront.net/ccbp-static-website/newsbg.png");
-  height: 100vh;
+  min-height: calc(100vh - 70px);
   background-size: cover;
 }
 
@@ -14,7 +14,7 @@
   background-color: #ffffff;
 }
 
-.main-heading {
+.news-card-main-heading {
   color: #7b8794;
   font-size: 20px;
   font-weight: 300;
@@ -22,14 +22,14 @@
   font-style: normal;
 }
 
-.content-heading {
+.news-card-content-heading {
   color: #323f4b;
   font-family: "Roboto";
   font-size: 30px;
   font-weight: 500;
 }
 
-.content {
+.news-card-content {
   color: #7b8794;
   font-size: 15px;
   font-weight: 300;
@@ -37,7 +37,7 @@
   font-style: normal;
 }
 
-.button {
+.news-card-button {
   background-color: #323f4b;
   color: #ffffff;
   height: 40px;

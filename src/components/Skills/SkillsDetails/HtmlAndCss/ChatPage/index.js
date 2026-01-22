@@ -1,4 +1,4 @@
-import BackButton from "../../backButton.";
+import BackButton from "../../backButton";
 
 import "./index.css";
 
