@@ -6,6 +6,9 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .advanced-technologies-card-container {
@@ -14,25 +17,26 @@
   padding: 20px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-h1 {
+.advanced-technologies-heading {
   font-family: "Bree serif";
   font-size: 20px;
   font-weight: 500;
   color: #5752ab;
 }
 
-p {
+.advanced-technologies-description {
   font-family: "Roboto";
   font-size: 15px;
   color: #323f4b;
 }
 
-.advanced-technologies-button-learn {
+.advanced-technologies-button {
   height: 35px;
   width: 100px;
-  background-color: #faf7f7;
   margin: 5px;
   border: 1px solid #5752ab;
   color: #5752ab;
@@ -40,13 +44,42 @@ p {
   border-radius: 5px;
 }
 
-.advanced-technologies-button-save {
-  height: 35px;
-  width: 100px;
+.learn {
+  background-color: #faf7f7;
+  color: #5752ab;
+}
+
+.save {
   background-color: #5752ab;
-  margin: 5px;
-  border: 1px solid #ffffff;
-  color: #ffffff;
-  font-size: 14px;
-  border-radius: 5px;
+  color: #faf7f7;
+}
+
+@media screen and (min-width: 768px) {
+  .advanced-technologies-cover-page-main-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .advanced-technologies-card-container {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  .advanced-technologies-heading {
+    font-size: 40px;
+  }
+  .advanced-technologies-description {
+    font-size: 20px;
+  }
+  .advanced-technologies-button {
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+  }
 }

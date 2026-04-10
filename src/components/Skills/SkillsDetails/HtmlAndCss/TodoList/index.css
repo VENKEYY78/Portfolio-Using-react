@@ -4,9 +4,10 @@
   background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/todolistbg.png");
   background-size: cover;
   min-height: calc(100vh - 70px);
+  padding: 20px;
 }
 
-.todo-card-header {
+.todo-card-header-container {
   text-align: center;
 }
 

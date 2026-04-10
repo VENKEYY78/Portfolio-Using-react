@@ -15,7 +15,7 @@ import SSC from "./components/About/EducationDetials/SSC";
 import Diploma from "./components/About/EducationDetials/Diploma";
 import Btech from "./components/About/EducationDetials/Btech";
 
-import Bootstrap from "./components/Skills/SkillsDetails/Bootstrap";
+// import Bootstrap from "./components/Skills/SkillsDetails/Bootstrap";
 import ExpressJs from "./components/Skills/SkillsDetails/ExpressJs";
 import HtmlAndCss from "./components/Skills/SkillsDetails/HtmlAndCss";
 import Javascript from "./components/Skills/SkillsDetails/Javascript";
@@ -51,6 +51,8 @@ import ArticlesPage from "./components/Skills/SkillsDetails/HtmlAndCss/ArticlesP
 
 import ProjectDetails from "./components/Skills/ProjectDetails";
 
+import Addition from "./components/Skills/SkillsDetails/Python/Addition";
+
 const App = () => (
   <ErrorBoundary>
     <BrowserRouter>
@@ -68,15 +70,18 @@ const App = () => (
         <Route path="/skills" element={<Skills />}>
           <Route index element={<Navigate to="all" replace />} />
           <Route path="all" element={<ALL />} />
-          <Route path="bootstrap" element={<Bootstrap />} />
           <Route path="expressjs" element={<ExpressJs />} />
           <Route path="htmlandcss" element={<HtmlAndCss />} />
           <Route path="javascript" element={<Javascript />} />
           <Route path="mysql" element={<MySql />} />
           <Route path="nodejs" element={<NodeJs />} />
           <Route path="python" element={<Python />} />
+
           <Route path="react" element={<React />} />
         </Route>
+
+        <Route path="/skills/python/addition" element={<Addition />} />
+
         {/* ALL PROJECTS Page Details Routes */}
         <Route
           path="/skills/all/:projectName/details"
@@ -97,6 +102,13 @@ const App = () => (
           path="/skills/bootstrap/:projectName/details"
           element={<ProjectDetails />}
         />
+
+        <Route
+          path="/skills/python/:projectName/details"
+          element={<ProjectDetails />}
+        />
+
+        {}
         <Route path="/skills/html/todolist" element={<TodoList />} />
         <Route path="/skills/html/chatpage" element={<ChatPage />} />
         <Route

@@ -4,7 +4,7 @@ import "./index.css";
 
 const ChatPage = () => (
   <div className="chat-page-bg-container">
-    <h1 className="person-name">Rahul</h1>
+    <h1 className="chat-person-name">Rahul</h1>
     <div className="msg-container">
       <p className="first-paragraph">Hello Rahul,how are you?</p>
       <p className="sec-paragraph">Hi Varakumar,i am good.How about you?</p>

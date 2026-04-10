@@ -1,5 +1,4 @@
 const projectsData = [
-  /*
   {
     idNo: "001",
     id: "todolist",
@@ -58,7 +57,7 @@ const projectsData = [
     title: "News Page",
     category: "html",
     description: "A Bootstrap-based news page showing a featured article.",
-    technologies: ["HTML", "CSS",  "Bootstrap"],
+    technologies: ["HTML", "CSS", "Bootstrap"],
     elements: ["h1", "p", "div", "button"],
   },
 
@@ -93,8 +92,7 @@ const projectsData = [
       "A responsive COVID-19 info page UI build with HTML,CSS,And Bootstrap.",
     technologies: ["HTML", "CSS", "Bootstrap"],
     elements: ["h1", "p", "div", "button", "img"],
-  },*/
-  /*
+  },
   {
     idNo: "010",
     id: "goaPage",
@@ -104,15 +102,15 @@ const projectsData = [
     technologies: ["HTML", "CSS", "Bootstrap"],
     elements: ["h1", "p", "div", "button", "Carousel"],
   },
-  
+
   {
-    idNo:"011",
+    idNo: "011",
     id: "findingNemoPage",
     title: "Finding Nemo Movie Page",
-     category: "html",
+    category: "html",
     description: "A Bootstrap-based movie page.",
     technologies: ["HTML", "CSS", "Bootstrap"],
-  }, 
+  },
   {
     idNo: "012",
     id: "mobilespecificationspage",
@@ -142,7 +140,6 @@ const projectsData = [
     technologies: ["HTML", "CSS", "Bootstrap"],
     elements: ["h1", "p", "div", "img", "ul", "li", "button"],
   },
- 
 
   {
     idNo: "015",
@@ -182,7 +179,7 @@ const projectsData = [
     description: "A portfolio-style projects section.",
     technologies: ["HTML", "CSS", "Bootstrap"],
     elements: ["h1", "p", "div", "img", "button"],
-  }, 
+  },
 
   {
     idNo: "018",
@@ -203,7 +200,6 @@ const projectsData = [
     technologies: ["HTML", "CSS", "Bootstrap"],
     elements: ["h1", "p", "div", "img", "ul", "li"],
   },
- 
 
   {
     idNo: "020",
@@ -213,7 +209,7 @@ const projectsData = [
     description: "A yoga experience webpage.",
     technologies: ["HTML", "CSS", "Bootstrap"],
     elements: ["h1", "p", "div", "img", "button"],
-  }, 
+  },
 
   {
     idNo: "021",
@@ -223,7 +219,7 @@ const projectsData = [
     description: "A flat booking website.",
     technologies: ["HTML", "CSS", "Bootstrap"],
     elements: ["h1", "p", "div", "button", "img"],
-  },*/
+  },
 
   {
     idNo: "022",
@@ -234,8 +230,8 @@ const projectsData = [
     technologies: ["HTML", "CSS", "Bootstrap"],
     elements: ["h1", "p", "div", "img", "ol", "li", "Carousel", "ul"],
   },
-  /*
-   {
+
+  {
     id: "multiSectionPage",
     title: "Multi-Section Page Navigation",
     category: "html",
@@ -395,7 +391,7 @@ const projectsData = [
     description:
       "A responsive landing page featuring a navigation bar and hero section with a headline, brief description, and sign-up button to highlight a web design tool.",
     technologies: ["HTML", "CSS", "Bootstrap"],
-  }, 
+  },
   {
     id: "designFeatures",
     title: "Responsive Design Features Section",
@@ -430,7 +426,14 @@ const projectsData = [
       "A JavaScript-based color picker that changes the background color dynamically and displays the selected hex value on the UI.",
     technologies: ["HTML", "CSS", "JavaScript"],
   },
-  */
+
+  {
+    id: "addition",
+    title: "Additon",
+    category: "python",
+    description:
+      "A JavaScript-based color picker that changes the background color dynamically and displays the selected hex value on the UI.",
+  },
 ];
 
 export default projectsData;

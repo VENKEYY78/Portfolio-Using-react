@@ -14,8 +14,7 @@
   background-color: #f6c56e;
   background-size: cover;
   padding: 30px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-radius: 20px;
 }
 
 .food-order-card-heading {
@@ -35,4 +34,31 @@
   background-color: #ffffff;
   font-family: "roboto";
   font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .food-order-pade-main-bg-container {
+    justify-content: center;
+    align-items: center;
+  }
+  .food-order-card-container {
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .food-order-card-heading {
+    font-size: 50px;
+  }
+  .food-order-card-paragragh {
+    font-size: 25px;
+  }
+  .food-order-button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+  }
 }

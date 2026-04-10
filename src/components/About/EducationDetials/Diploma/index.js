@@ -10,9 +10,8 @@ const Diploma = () => (
         passed in 2020 with a percentage of 76.06%.
       </p>
       <p className="passed-out">
-        <strong>Diploma in Mechanical Engineering (2017–2020) – 76.06%</strong>
+        <strong>Diploma in Mechanical Engineering (2017–2020) = 76.06%</strong>
       </p>
-
       <div className="circle-contianer">
         <div className="percentage-circle">
           <svg className="diplamo-svg" width="150" height="150">

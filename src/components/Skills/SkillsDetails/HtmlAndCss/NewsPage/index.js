@@ -3,7 +3,7 @@ import BackButton from "../../backButton";
 import "./index.css";
 
 const NewsPage = () => (
-  <div className="news-page-main-bg-container d-flex flex-column justify-content-end">
+  <div className="news-page-main-bg-container">
     <div className="news-page-card-container">
       <p className="news-card-main-heading">NEWS OF THE DAY</p>
       <h1 className="news-card-content-heading">

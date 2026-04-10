@@ -3,7 +3,7 @@
   min-height: calc(100vh - 70px);
 }
 
-.person-name {
+.chat-person-name {
   text-align: center;
   color: #ffffff;
   background-color: #323f4b;
@@ -34,7 +34,6 @@
   font-family: "Roboto";
   font-size: 14px;
   padding: 14px;
-
   background-color: #52606d;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;

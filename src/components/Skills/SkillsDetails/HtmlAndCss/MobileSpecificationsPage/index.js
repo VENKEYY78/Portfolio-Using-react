@@ -4,11 +4,14 @@ import "./index.css";
 
 const MobileSpecificationsPage = () => (
   <div className="Mobile-specific-page-main-bg-container">
-    <img
-      src=" https://d2clawv67efefq.cloudfront.net/ccbp-static-website/iphoneX-bg.png"
-      className="mobile-specific-page-image"
-      alt="mobile-img"
-    />
+    <div className="image-contianer">
+      <img
+        src=" https://d2clawv67efefq.cloudfront.net/ccbp-static-website/iphoneX-bg.png"
+        className="mobile-specific-page-image"
+        alt="mobile-img"
+      />
+    </div>
+
     <div className="mobile-specific-page-container">
       <h1 className="mobile-specific-page-heading">specifications</h1>
       <ul className="mobile-specific-unodered-list-container">

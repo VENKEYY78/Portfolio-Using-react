@@ -4,7 +4,7 @@ import "./index.css";
 
 const TodoList = () => (
   <div className="Todolist-main-bg-container">
-    <div className="todo-card-header">
+    <div className="todo-card-header-container">
       <h1 className="todo-heading">Todolist</h1>
       <p className="todo-card-description">
         Each day I will accomplish one thing on my todo list

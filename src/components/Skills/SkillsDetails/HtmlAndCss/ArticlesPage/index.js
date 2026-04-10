@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+import Carousel from "react-bootstrap/Carousel";
+import BackButton from "../../backButton";
 import "./index.css";
 
 const ArticlesPages = {
@@ -82,233 +83,215 @@ const ArticlesPage = () => {
               </div>
             </div>
           </div>
+          <div className="back-navigate-button-container">
+            <BackButton />
+          </div>
         </div>
       )}
       {activeArticalPage === ArticlesPages.TechnologyPage && (
-        <h1 onClick={() => setActiveArticalPage(ArticlesPages.Home)}>
-          Technologies
-        </h1>
+        <div className="BootStrap-carosel-container">
+          <Carousel className="Carousel-container">
+            <Carousel.Item>
+              <img
+                className="d-block w-100 Artical-technology-carousel-img"
+                src="https://assets.ccbp.in/frontend/static-website/articles-technology-c1-img.png"
+                alt="Slide 1"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 Artical-technology-carousel-img"
+                src="https://assets.ccbp.in/frontend/static-website/articles-technology-c2-img.png"
+                alt="Slide 2"
+              />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="d-block w-100 Artical-technology-carousel-img"
+                src="https://assets.ccbp.in/frontend/static-website/articles-technology-c3-img.png"
+                alt="Slide 3"
+              />
+            </Carousel.Item>
+          </Carousel>
+          <div class="List-of-topics-container">
+            <h1 class="List-of-topics-heading">List of Topics</h1>
+
+            <ul class="list-of-topics-container">
+              <li className="list-of-topics-list-item">
+                Artifical intelligence
+              </li>
+              <li className="list-of-topics-list-item"> Data Science</li>
+              <li className="list-of-topics-list-item">Machine Learning</li>
+              <li className="list-of-topics-list-item">internet of Things</li>
+              <li className="list-of-topics-list-item">Blockchain</li>
+              <li className="list-of-topics-list-item">Virtual Reality</li>
+              <li className="list-of-topics-list-item">
+                Robotic Process Automation (RPA)
+              </li>
+            </ul>
+            <div class="text-center pt-3">
+              <button
+                class="list-of-topics-button"
+                onClick={() => setActiveArticalPage(ArticlesPages.Home)}
+              >
+                Back
+              </button>
+            </div>
+          </div>
+        </div>
       )}
       {activeArticalPage === ArticlesPages.HealthCarePage && (
-        <h1 onClick={() => setActiveArticalPage(ArticlesPages.Home)}>
-          HealthCarePage
-        </h1>
+        <div className="BootStrap-carosel-container">
+          <Carousel className="Carousel-container">
+            <Carousel.Item>
+              <img
+                className="d-block w-100 Artical-technology-carousel-img"
+                src="https://assets.ccbp.in/frontend/static-website/articles-healthcare-c1-img.png"
+                alt="Slide 1"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 Artical-technology-carousel-img"
+                src="https://assets.ccbp.in/frontend/static-website/articles-healthcare-c2-img.png"
+                alt="Slide 2"
+              />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="d-block w-100 Artical-technology-carousel-img"
+                src="https://assets.ccbp.in/frontend/static-website/articles-healthcare-c3-img.png"
+                alt="Slide 3"
+              />
+            </Carousel.Item>
+          </Carousel>
+          <div class="List-of-topics-container">
+            <h1 class="List-of-topics-heading">List of Topics</h1>
+
+            <ul class="list-of-topics-container">
+              <li className="list-of-topics-list-item">
+                Infrastructure Management
+              </li>
+              <li className="list-of-topics-list-item">Lastet i Health Care</li>
+              <li className="list-of-topics-list-item">Pharamaceuticals</li>
+              <li className="list-of-topics-list-item">COVID-19</li>
+            </ul>
+            <div class="text-center pt-3">
+              <button
+                class="list-of-topics-button"
+                onClick={() => setActiveArticalPage(ArticlesPages.Home)}
+              >
+                Back
+              </button>
+            </div>
+          </div>
+        </div>
       )}
       {activeArticalPage === ArticlesPages.SciencePage && (
-        <h1 onClick={() => setActiveArticalPage(ArticlesPages.Home)}>
-          SciencePage
-        </h1>
+        <div className="BootStrap-carosel-container">
+          <Carousel className="Carousel-container">
+            <Carousel.Item>
+              <img
+                className="d-block w-100 Artical-technology-carousel-img"
+                src="https://assets.ccbp.in/frontend/static-website/articles-science-c1-img.png"
+                alt="Slide 1"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 Artical-technology-carousel-img"
+                src="https://assets.ccbp.in/frontend/static-website/articles-science-c2-img.png"
+                alt="Slide 2"
+              />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="d-block w-100 Artical-technology-carousel-img"
+                src="https://assets.ccbp.in/frontend/static-website/articles-science-c3-img.png"
+                alt="Slide 3"
+              />
+            </Carousel.Item>
+          </Carousel>
+          <div class="List-of-topics-container">
+            <h1 class="List-of-topics-heading">List of Topics</h1>
+
+            <ul class="list-of-topics-container">
+              <li className="list-of-topics-list-item">Biology</li>
+              <li className="list-of-topics-list-item"> Zoology</li>
+              <li className="list-of-topics-list-item">Cardiology</li>
+              <li className="list-of-topics-list-item">Chemistry</li>
+              <li className="list-of-topics-list-item">Bio Chemistry</li>
+              <li className="list-of-topics-list-item">Nano Sciece</li>
+              <li className="list-of-topics-list-item">Astronomy</li>
+            </ul>
+            <div class="text-center pt-3">
+              <button
+                class="list-of-topics-button"
+                onClick={() => setActiveArticalPage(ArticlesPages.Home)}
+              >
+                Back
+              </button>
+            </div>
+          </div>
+        </div>
       )}
       {activeArticalPage === ArticlesPages.BusinessPage && (
-        <h1 onClick={() => setActiveArticalPage(ArticlesPages.Home)}>
-          BusinessPage
-        </h1>
+        <div className="BootStrap-carosel-container">
+          <Carousel className="Carousel-container">
+            <Carousel.Item>
+              <img
+                className="d-block w-100 Artical-technology-carousel-img"
+                src="https://assets.ccbp.in/frontend/static-website/articles-business-c1-img.png"
+                alt="Slide 1"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 Artical-technology-carousel-img"
+                src="https://assets.ccbp.in/frontend/static-website/articles-business-c2-img.png"
+                alt="Slide 2"
+              />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="d-block w-100 Artical-technology-carousel-img"
+                src="https://assets.ccbp.in/frontend/static-website/articles-business-c3-img.png"
+                alt="Slide 3"
+              />
+            </Carousel.Item>
+          </Carousel>
+          <div class="List-of-topics-container">
+            <h1 class="List-of-topics-heading">List of Topics</h1>
+
+            <ul class="list-of-topics-container">
+              <li className="list-of-topics-list-item">Business Models</li>
+              <li className="list-of-topics-list-item">
+                21st Century Business Skills
+              </li>
+              <li className="list-of-topics-list-item">
+                Traditional Business Approaches
+              </li>
+              <li className="list-of-topics-list-item">
+                How to go from 0 to 1? The StartUp 101
+              </li>
+            </ul>
+            <div class="text-center pt-3">
+              <button
+                class="list-of-topics-button"
+                onClick={() => setActiveArticalPage(ArticlesPages.Home)}
+              >
+                Back
+              </button>
+            </div>
+          </div>
+        </div>
       )}
     </>
   );
 };
 
 export default ArticlesPage;
-
-/*
- <div id="section1">
-        <div class="empower-bg-container-section-01">
-            <div id="Technology-carousel-indicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#Technology-carousel-indicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#Technology-carousel-indicators" data-slide-to="1"></li>
-                    <li data-target="#Technology-carousel-indicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c1-img.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c2-img.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c3-img.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" type="button" data-target="#Technology-carousel-indicators" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" type="button" data-target="#Technology-carousel-indicators" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-
-            <div>
-                <h1 class="carousel-imge-bg-card">List of Topics</h1>
-            </div>
-
-            <div class="Carousel-Images-paragraph pt-3">
-                <ul class="list-of-topics">
-                    <li>Artifical intelligence</li>
-                    <li> Data Science</li>
-                    <li>Machine Learning</li>
-                    <li>internet of Things</li>
-                    <li>Blockchain</li>
-                    <li>Virtual Reality</li>
-                    <li>Robotic Process Automation (RPA)</li>
-                </ul>
-                <div class="text-center pt-3">
-                    <button class="button" onclick="display('sectionHome')">Back</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="section2">
-        <div class="empower-bg-container-section-01">
-            <div id="science-carousel-indicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#science-carousel-indicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#science-carousel-indicators" data-slide-to="1"></li>
-                    <li data-target="#science-carousel-indicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c1-img.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c2-img.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c3-img.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" type="button" data-target="#science-carousel-indicators" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" type="button" data-target="#science-carousel-indicators" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-
-            <div>
-                <h1 class="carousel-imge-bg-card">List of Topics</h1>
-            </div>
-
-            <div class="Carousel-Images-paragraph pt-3">
-                <ul class="list-of-topics">
-                    <li>Artifical intelligence</li>
-                    <li> Data Science</li>
-                    <li>Machine Learning</li>
-                    <li>internet of Things</li>
-                    <li>Blockchain</li>
-                    <li>Virtual Reality</li>
-                    <li>Robotic Process Automation (RPA)</li>
-                </ul>
-                <div class="text-center pt-3">
-                    <button class="button" onclick="display('sectionHome')">Back</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="section3">
-        <div class="empower-bg-container-section-01">
-            <div id="health-carousel-indicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#health-carousel-indicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#health-carousel-indicators" data-slide-to="1"></li>
-                    <li data-target="#health-carousel-indicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c1-img.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c2-img.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c3-img.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" type="button" data-target="#health-carousel-indicators" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" type="button" data-target="#health-carousel-indicators" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-
-            <div>
-                <h1 class="carousel-imge-bg-card">List of Topics</h1>
-            </div>
-
-            <div class="Carousel-Images-paragraph pt-3">
-                <ul class="list-of-topics">
-                    <li>Artifical intelligence</li>
-                    <li> Data Science</li>
-                    <li>Machine Learning</li>
-                    <li>internet of Things</li>
-                    <li>Blockchain</li>
-                    <li>Virtual Reality</li>
-                    <li>Robotic Process Automation (RPA)</li>
-                </ul>
-                <div class="text-center pt-3">
-                    <button class="button" onclick="display('sectionHome')">Back</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div id="section4">
-        <div class="empower-bg-container-section-01">
-            <div id="Business-carousel-indicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#Business-carousel-indicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#Business-carousel-indicators" data-slide-to="1"></li>
-                    <li data-target="#Business-carousel-indicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c1-img.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c2-img.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c3-img.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" type="button" data-target="#Business-carousel-indicators" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" type="button" data-target="#Business-carousel-indicators" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-
-            <div>
-                <h1 class="carousel-imge-bg-card">List of Topics</h1>
-            </div>
-
-            <div class="Carousel-Images-paragraph pt-3">
-                <ul class="list-of-topics">
-                    <li>Artifical intelligence</li>
-                    <li> Data Science</li>
-                    <li>Machine Learning</li>
-                    <li>internet of Things</li>
-                    <li>Blockchain</li>
-                    <li>Virtual Reality</li>
-                    <li>Robotic Process Automation (RPA)</li>
-                </ul>
-                <div class="text-center pt-3">
-                    <button class="button" onclick="display('sectionHome')">Back</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    */

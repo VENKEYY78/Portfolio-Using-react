@@ -57,7 +57,7 @@ const About = () => (
           <NavLink
             to="ssc"
             className={({ isActive }) =>
-              isActive ? "link skills-button active" : "link skills-button"
+              isActive ? "link About-button active" : "link About-button"
             }
           >
             SSC
@@ -65,9 +65,9 @@ const About = () => (
         </li>
         <li>
           <NavLink
-            to="diplamo"
+            to="diploma"
             className={({ isActive }) =>
-              isActive ? "link skills-button active" : "link skills-button"
+              isActive ? "link About-button active" : "link About-button"
             }
           >
             DIPLAMO
@@ -77,7 +77,7 @@ const About = () => (
           <NavLink
             to="btech"
             className={({ isActive }) =>
-              isActive ? "link skills-button active" : "link skills-button"
+              isActive ? "link About-button active" : "link About-button"
             }
           >
             Btech

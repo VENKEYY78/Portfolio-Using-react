@@ -91,7 +91,7 @@
   padding-top: 10px;
 }
 
-.skills-button {
+.About-button {
   min-width: 120px;
   height: 30px;
   background-color: rgb(254, 234, 11);
@@ -109,7 +109,11 @@
   margin-left: 20px;
 }
 
-.skills-button.active {
+.About-button:hover {
+  background-color: orange;
+}
+
+.About-button.active {
   background-color: rgb(29, 238, 10);
   color: white;
 }

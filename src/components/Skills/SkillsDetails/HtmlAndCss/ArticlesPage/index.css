@@ -75,16 +75,56 @@
   font-size: 32px;
 }
 
-.list-of-topics {
-  color: #ffffff;
-  font-size: 17px;
-}
-
 .Carousel-Images-paragraph {
   padding: 25px;
 }
 
-.button {
+.BootStrap-carosel-container {
+  min-height: calc(100vh - 70px);
+  background-color: #225db0;
+  padding: 10px;
+  display: flex;
+}
+
+.Carousel-container {
+  width: 50%;
+  min-height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Artical-technology-carousel-img {
+  width: 90%;
+  height: 50%;
+}
+
+.List-of-topics-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.List-of-topics-heading {
+  color: #ffffff;
+  font-size: 60px;
+  font-family: "roboto";
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.list-of-topics-container {
+}
+
+.list-of-topics-list-item {
+  color: #ffffff;
+  font-family: "roboto";
+  font-size: 20px;
+}
+
+.list-of-topics-button {
   color: #ffffff;
   background-color: #225db0;
   border-color: #ffffff;

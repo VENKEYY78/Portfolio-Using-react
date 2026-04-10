@@ -25,5 +25,16 @@
 .coding-card-heading {
   color: #ffffff;
   font-family: "Bree Serif";
-  font-weight: lighter;
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  .coding-card-container {
+    height: 400px;
+    width: 600px;
+    border-width: 8px;
+  }
+  .coding-card-heading {
+    font-size: 70px;
+  }
 }

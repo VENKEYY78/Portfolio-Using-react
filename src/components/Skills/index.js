@@ -24,7 +24,7 @@ const Skills = () => (
         <NavLink
           to="htmlandcss"
           className={({ isActive }) =>
-            isActive ? "link skills-button active" : "link skills-button"
+            isActive ? "link skills-button active " : "link skills-button"
           }
         >
           HTML & CSS
@@ -39,17 +39,6 @@ const Skills = () => (
           }
         >
           JAVASCRIPT
-        </NavLink>
-      </li>
-
-      <li>
-        <NavLink
-          to="bootstrap"
-          className={({ isActive }) =>
-            isActive ? "link skills-button active" : "link skills-button"
-          }
-        >
-          BOOTSTRAP
         </NavLink>
       </li>
 
